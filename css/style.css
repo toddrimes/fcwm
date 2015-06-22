@@ -647,12 +647,6 @@ http://www.alistapart.com/d/responsive-web-design/ex/ex-site-FINAL.html
 @media only screen
 and (min-device-width : 0px)
 and (max-device-width : 720px)  {
-	.mode-sm {
-		visibility:visible;
-	}
-	.mode-med, .mode-wide {
-		visibility:hidden;
-	}
 	
 	#top-fcwm { 
 	  background: url(../cuts/sm_fcwm_logo.png) no-repeat;
@@ -810,11 +804,60 @@ and (max-device-width : 720px)  {
 	  margin-left: 0px;
 	  padding: none !important
 	 }
+	 
+	 #big-logos { display: none;}	   
+	 
+	 #sm-logos { display: block;}	   
+   #lower-why {
+	  background: url(../cuts/med_lower_1whylogo.png) no-repeat;
+	  width: 57px; /* Width of new image */
+	  height: 28px; /* Height of new image */
+	  padding-left: 57px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+   }
+   #lower-pgen {
+	  background: url(../cuts/med_lower_2pgen.png) no-repeat;
+	  width: 49px; /* Width of new image */
+	  height: 28px; /* Height of new image */
+	  padding-left: 49px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+   }
+   #lower-safari {
+	  background: url(../cuts/med_lower_3safari.png) no-repeat;
+	  width: 72px; /* Width of new image */
+	  height: 28px; /* Height of new image */
+	  padding-left: 72px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+   }
+   #lower-cstar {
+	  background: url(../cuts/med_lower_4cstar.png) no-repeat;
+	  width: 113px; /* Width of new image */
+	  height: 20px; /* Height of new image */
+	  padding-left: 113px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+   }
+   #lower-twitter {
+	  background: url(../cuts/med_lower_5twitter.png) no-repeat;
+	  width: 35px; /* Width of new image */
+	  height: 28px; /* Height of new image */
+	  padding-left: 35px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+   }
+	 
 }
 
 @media only screen
 and (min-device-width : 721px)
 and (max-device-width : 868px)  {
+	 
+	 #big-logos { display: block;}	   
+	 
+	 #sm-logos { display: none;}	   
 	
 	#top-fcwm { 
 	  background: url(../cuts/med_fcwm_logo.png) no-repeat;	
@@ -822,16 +865,102 @@ and (max-device-width : 868px)  {
 	  height: 24px;
 	  padding-left: 326px; /* Equal to width of new image */
 	 }
+			   
+   #lower-why {
+	  background: url(../cuts/med_lower_1whylogo.png) no-repeat;
+	  width: 57px; /* Width of new image */
+	  height: 28px; /* Height of new image */
+	  padding-left: 57px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+   }
+   #lower-pgen {
+	  background: url(../cuts/med_lower_2pgen.png) no-repeat;
+	  width: 49px; /* Width of new image */
+	  height: 28px; /* Height of new image */
+	  padding-left: 49px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+   }
+   #lower-safari {
+	  background: url(../cuts/med_lower_3safari.png) no-repeat;
+	  width: 72px; /* Width of new image */
+	  height: 28px; /* Height of new image */
+	  padding-left: 72px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+   }
+   #lower-cstar {
+	  background: url(../cuts/med_lower_4cstar.png) no-repeat;
+	  width: 113px; /* Width of new image */
+	  height: 20px; /* Height of new image */
+	  padding-left: 113px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+   }
+   #lower-twitter {
+	  background: url(../cuts/med_lower_5twitter.png) no-repeat;
+	  width: 35px; /* Width of new image */
+	  height: 28px; /* Height of new image */
+	  padding-left: 35px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+   }
 	 
 }
 
 @media only screen
 and (min-device-width : 869px)  {
+	 
+	 #big-logos { display: block;}	   
+	 
+	 #sm-logos { display: none;}	  
 	
 	#top-fcwm { 
 	  background: url(../cuts/wide_fcwm_logo.png) no-repeat;	
 	  width: 482px;
 	  height: 35px;
 	  padding-left: 482px; /* Equal to width of new image */
-	 }
+	 }  
+   #lower-why {
+	  background: url(../cuts/med_lower_1whylogo.png) no-repeat;
+	  width: 57px; /* Width of new image */
+	  height: 28px; /* Height of new image */
+	  padding-left: 57px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+   }
+   #lower-pgen {
+	  background: url(../cuts/med_lower_2pgen.png) no-repeat;
+	  width: 49px; /* Width of new image */
+	  height: 28px; /* Height of new image */
+	  padding-left: 49px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+   }
+   #lower-safari {
+	  background: url(../cuts/med_lower_3safari.png) no-repeat;
+	  width: 72px; /* Width of new image */
+	  height: 28px; /* Height of new image */
+	  padding-left: 72px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+   }
+   #lower-cstar {
+	  background: url(../cuts/med_lower_4cstar.png) no-repeat;
+	  width: 113px; /* Width of new image */
+	  height: 20px; /* Height of new image */
+	  padding-left: 113px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+   }
+   #lower-twitter {
+	  background: url(../cuts/med_lower_5twitter.png) no-repeat;
+	  width: 35px; /* Width of new image */
+	  height: 28px; /* Height of new image */
+	  padding-left: 35px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+   }
+	 
 }
