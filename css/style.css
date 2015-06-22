@@ -378,7 +378,7 @@ footer a{
      }
 
      .column {
-          width: 50%;
+          /* width: 50%; */
      }
 
      #your-favorite img {
@@ -1080,7 +1080,8 @@ and (max-device-width : 868px)  {
 }
 
 @media only screen
-and (min-device-width : 869px)  {
+and (min-device-width : 869px) 
+and (max-device-width : 2500px)  {
 	 
 	 #big-logos { display: block;}	   
 	 
@@ -1302,4 +1303,8 @@ and (min-device-width : 869px)  {
 	  margin: 0px auto;
    }
 	 
+}
+
+#all-playllists > div > h4 > div {
+	background-size: contain;
 }
