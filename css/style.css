@@ -647,6 +647,10 @@ http://www.alistapart.com/d/responsive-web-design/ex/ex-site-FINAL.html
 @media only screen
 and (min-device-width : 0px)
 and (max-device-width : 720px)  {
+	 
+	 #big-logos { display: none;}	   
+	 
+	 #sm-logos { display: block;}	
 	
 	#top-fcwm { 
 	  background: url(../cuts/sm_fcwm_logo.png) no-repeat;
@@ -672,6 +676,16 @@ and (max-device-width : 720px)  {
 	  height: 9px; /* Height of new image */
 	  padding-left: 51px; /* Equal to width of new image */
 	}
+	
+	 #video-fpo { 
+	  background: url(../cuts/sm_video_fpo.png) no-repeat;
+	  width: 320; /* Width of new image */
+	  height: 183px; /* Height of new image */
+	  padding-left: 320px; /* Equal to width of new image */
+	  margin-left: 0px;
+	  padding: none !important
+	 }
+	 
 	h4 { 
 	 	margin-top: 44px;
 	 	margin-bottom: 20px;
@@ -796,18 +810,7 @@ and (max-device-width : 720px)  {
 	  display: table;
 	  margin: 0px auto;
 	 }
-	 #video-fpo { 
-	  background: url(../cuts/sm_video_fpo.png) no-repeat;
-	  width: 320; /* Width of new image */
-	  height: 183px; /* Height of new image */
-	  padding-left: 320px; /* Equal to width of new image */
-	  margin-left: 0px;
-	  padding: none !important
-	 }
-	 
-	 #big-logos { display: none;}	   
-	 
-	 #sm-logos { display: block;}	   
+	    
    #lower-why {
 	  background: url(../cuts/med_lower_1whylogo.png) no-repeat;
 	  width: 57px; /* Width of new image */
@@ -854,18 +857,186 @@ and (max-device-width : 720px)  {
 @media only screen
 and (min-device-width : 721px)
 and (max-device-width : 868px)  {
+	
 	 
 	 #big-logos { display: block;}	   
 	 
-	 #sm-logos { display: none;}	   
+	 #sm-logos { display: none;}	  
 	
 	#top-fcwm { 
 	  background: url(../cuts/med_fcwm_logo.png) no-repeat;	
 	  width: 326px;
 	  height: 24px;
 	  padding-left: 326px; /* Equal to width of new image */
+	 } 
+	 
+	#top-why { 
+	  background: url(../cuts/med_why_logo.png) no-repeat;
+	  width: 42px; /* Width of new image */
+	  height: 23px; /* Height of new image */
+	  padding-left: 42px; /* Equal to width of new image */
 	 }
-			   
+	#top-pgen { 
+	  background: url(../cuts/med_playlistgen_logo.png) no-repeat;
+	  width: 36px; /* Width of new image */
+	  height: 23px; /* Height of new image */
+	  padding-left: 36px; /* Equal to width of new image */
+	 }
+	#top-cstar { 
+	  background: url(../cuts/med_cstarpr_logo.png) no-repeat;
+	  width: 106px; /* Width of new image */
+	  height: 18px; /* Height of new image */
+	  padding-left: 106px; /* Equal to width of new image */
+	}
+	
+	 #video-fpo { 
+	  background: url(../cuts/med_video_fpo.png) no-repeat;
+	  width: 768px; /* Width of new image */
+	  height: 390px; /* Height of new image */
+	  padding-left: 768px; /* Equal to width of new image */
+	  margin-left: 0px;
+	  padding: none !important
+	 }
+	 
+	 #video-fpo, #all-playlists {
+		 display: table;
+		 margin: 0px auto;
+	 }
+	 
+	 #all-playlists {
+		display: -webkit-flex !important; /* Safari */
+		-webkit-justify-content: space-around !important; /* Safari 6.1+ */
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		-webkit-flex-wrap: wrap; /* Safari 6.1+ */
+		flex-wrap: wrap;
+	 }
+	 
+	h4 { 
+	 	margin-top: 44px;
+	 	margin-bottom: 20px;
+	}
+	.pt_1 { 
+	  background: url(../cuts/med_pt_1thediagnosis.png) no-repeat;
+	  width: 228px; /* Width of new image */
+	  height: 46px; /* Height of new image */
+	  padding-left: 228px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_2 { 
+	  background: url(../cuts/med_pt_2preop.png) no-repeat;
+	  width: 228px; /* Width of new image */
+	  height: 46px; /* Height of new image */
+	  padding-left: 228px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_3 { 
+	  background: url(../cuts/med_pt_3recovery.png) no-repeat;
+	  width: 228px; /* Width of new image */
+	  height: 46px; /* Height of new image */
+	  padding-left: 228px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_4 { 
+	  background: url(../cuts/med_pt_4shaving.png) no-repeat;
+	  width: 228px; /* Width of new image */
+	  height: 46px; /* Height of new image */
+	  padding-left: 228px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_5 { 
+	  background: url(../cuts/med_pt_5gettingout.png) no-repeat;
+	  width: 228px; /* Width of new image */
+	  height: 46px; /* Height of new image */
+	  padding-left: 228px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_6 { 
+	  background: url(../cuts/med_pt_6beingunderstood.png) no-repeat;
+	  width: 228px; /* Width of new image */
+	  height: 46px; /* Height of new image */
+	  padding-left: 228px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_7 { 
+	  background: url(../cuts/med_pt_7celebration.png) no-repeat;
+	  width: 228px; /* Width of new image */
+	  height: 46px; /* Height of new image */
+	  padding-left: 228px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_8 { 
+	  background: url(../cuts/med_pt_8bodyscans.png) no-repeat;
+	  width: 228px; /* Width of new image */
+	  height: 46px; /* Height of new image */
+	  padding-left: 228px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_9 { 
+	  background: url(../cuts/med_pt_9postop.png) no-repeat;
+	  width: 228px; /* Width of new image */
+	  height: 46px; /* Height of new image */
+	  padding-left: 228px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_10 { 
+	  background: url(../cuts/med_pt_10chemoday1.png) no-repeat;
+	  width: 228px; /* Width of new image */
+	  height: 46px; /* Height of new image */
+	  padding-left: 228px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_11 { 
+	  background: url(../cuts/med_pt_11chemodaily.png) no-repeat;
+	  width: 228px; /* Width of new image */
+	  height: 46px; /* Height of new image */
+	  padding-left: 228px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_12 { 
+	  background: url(../cuts/med_pt_12radiation.png) no-repeat;
+	  width: 228px; /* Width of new image */
+	  height: 46px; /* Height of new image */
+	  padding-left: 228px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_13 { 
+	  background: url(../cuts/med_pt_13followups.png) no-repeat;
+	  width: 228px; /* Width of new image */
+	  height: 46px; /* Height of new image */
+	  padding-left: 228px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_14 { 
+	  background: url(../cuts/med_pt_14caregivers.png) no-repeat;
+	  width: 228px; /* Width of new image */
+	  height: 46px; /* Height of new image */
+	  padding-left: 228px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_15 { 
+	  background: url(../cuts/med_pt_15favorites.png) no-repeat;
+	  width: 228px; /* Width of new image */
+	  height: 46px; /* Height of new image */
+	  padding-left: 228px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
    #lower-why {
 	  background: url(../cuts/med_lower_1whylogo.png) no-repeat;
 	  width: 57px; /* Width of new image */
@@ -905,8 +1076,7 @@ and (max-device-width : 868px)  {
 	  padding-left: 35px; /* Equal to width of new image */
 	  display: table;
 	  margin: 0px auto;
-   }
-	 
+   } 
 }
 
 @media only screen
@@ -921,44 +1091,213 @@ and (min-device-width : 869px)  {
 	  width: 482px;
 	  height: 35px;
 	  padding-left: 482px; /* Equal to width of new image */
-	 }  
+	 } 
+	 
+	#top-why { 
+	  background: url(../cuts/wide_why_logo.png) no-repeat;
+	  width: 63px; /* Width of new image */
+	  height: 33px; /* Height of new image */
+	  padding-left: 63px; /* Equal to width of new image */
+	 }
+	#top-pgen { 
+	  background: url(../cuts/wide_playlistgen_logo.png) no-repeat;
+	  width: 54px; /* Width of new image */
+	  height: 33px; /* Height of new image */
+	  padding-left: 54px; /* Equal to width of new image */
+	 }
+	#top-cstar { 
+	  background: url(../cuts/wide_cstarpr_logo.png) no-repeat;
+	  width: 157px; /* Width of new image */
+	  height: 27px; /* Height of new image */
+	  padding-left: 157px; /* Equal to width of new image */
+	}
+	
+	 #video-fpo { 
+	  background: url(../cuts/wide_video_fpo.png) no-repeat;
+	  width: 868px; /* Width of new image */
+	  height: 489px; /* Height of new image */
+	  padding-left: 868px; /* Equal to width of new image */
+	  margin-left: 0px;
+	  padding: none !important
+	 }
+	 
+	 #video-fpo, #all-playlists {
+		 display: table;
+		 margin: 0px auto;
+	 }
+	 
+	 #all-playlists {
+		     display: -webkit-flex !important; /* Safari */
+    -webkit-justify-content: space-around !important; /* Safari 6.1+ */
+    display: flex;
+    justify-content: space-around;
+	align-items: center;
+
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+    flex-wrap: wrap;
+	 }
+	 
+	h4 { 
+	 	margin-top: 44px;
+	 	margin-bottom: 20px;
+	}
+	.pt_1 { 
+	  background: url(../cuts/wide_pt_1thediagnosis.png) no-repeat;
+	  width: 212px; /* Width of new image */
+	  height: 41px; /* Height of new image */
+	  padding-left: 212px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_2 { 
+	  background: url(../cuts/wide_pt_2preop.png) no-repeat;
+	  width: 212px; /* Width of new image */
+	  height: 41px; /* Height of new image */
+	  padding-left: 212px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_3 { 
+	  background: url(../cuts/wide_pt_3recovery.png) no-repeat;
+	  width: 212px; /* Width of new image */
+	  height: 41px; /* Height of new image */
+	  padding-left: 212px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_4 { 
+	  background: url(../cuts/wide_pt_4shaving.png) no-repeat;
+	  width: 212px; /* Width of new image */
+	  height: 41px; /* Height of new image */
+	  padding-left: 212px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_5 { 
+	  background: url(../cuts/wide_pt_5gettingout.png) no-repeat;
+	  width: 212px; /* Width of new image */
+	  height: 41px; /* Height of new image */
+	  padding-left: 212px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_6 { 
+	  background: url(../cuts/wide_pt_6beingunderstood.png) no-repeat;
+	  width: 212px; /* Width of new image */
+	  height: 41px; /* Height of new image */
+	  padding-left: 212px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_7 { 
+	  background: url(../cuts/wide_pt_7celebration.png) no-repeat;
+	  width: 212px; /* Width of new image */
+	  height: 41px; /* Height of new image */
+	  padding-left: 212px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_8 { 
+	  background: url(../cuts/wide_pt_8bodyscans.png) no-repeat;
+	  width: 212px; /* Width of new image */
+	  height: 41px; /* Height of new image */
+	  padding-left: 212px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_9 { 
+	  background: url(../cuts/wide_pt_9postop.png) no-repeat;
+	  width: 212px; /* Width of new image */
+	  height: 41px; /* Height of new image */
+	  padding-left: 212px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_10 { 
+	  background: url(../cuts/wide_pt_10chemoday1.png) no-repeat;
+	  width: 212px; /* Width of new image */
+	  height: 41px; /* Height of new image */
+	  padding-left: 212px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_11 { 
+	  background: url(../cuts/wide_pt_11chemodaily.png) no-repeat;
+	  width: 212px; /* Width of new image */
+	  height: 41px; /* Height of new image */
+	  padding-left: 212px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_12 { 
+	  background: url(../cuts/wide_pt_12radiation.png) no-repeat;
+	  width: 212px; /* Width of new image */
+	  height: 41px; /* Height of new image */
+	  padding-left: 212px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_13 { 
+	  background: url(../cuts/wide_pt_13followups.png) no-repeat;
+	  width: 212px; /* Width of new image */
+	  height: 41px; /* Height of new image */
+	  padding-left: 212px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_14 { 
+	  background: url(../cuts/wide_pt_14caregivers.png) no-repeat;
+	  width: 212px; /* Width of new image */
+	  height: 41px; /* Height of new image */
+	  padding-left: 212px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_15 { 
+	  background: url(../cuts/wide_pt_15favorites.png) no-repeat;
+	  width: 212px; /* Width of new image */
+	  height: 41px; /* Height of new image */
+	  padding-left: 212px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
    #lower-why {
-	  background: url(../cuts/med_lower_1whylogo.png) no-repeat;
-	  width: 57px; /* Width of new image */
-	  height: 28px; /* Height of new image */
-	  padding-left: 57px; /* Equal to width of new image */
+	  background: url(../cuts/wide_lower_1whylogo.png) no-repeat;
+	  width: 84px; /* Width of new image */
+	  height: 43px; /* Height of new image */
+	  padding-left: 84px; /* Equal to width of new image */
 	  display: table;
 	  margin: 0px auto;
    }
    #lower-pgen {
-	  background: url(../cuts/med_lower_2pgen.png) no-repeat;
-	  width: 49px; /* Width of new image */
-	  height: 28px; /* Height of new image */
-	  padding-left: 49px; /* Equal to width of new image */
+	  background: url(../cuts/wide_lower_2pgen.png) no-repeat;
+	  width: 73px; /* Width of new image */
+	  height: 43px; /* Height of new image */
+	  padding-left: 73px; /* Equal to width of new image */
 	  display: table;
 	  margin: 0px auto;
    }
    #lower-safari {
-	  background: url(../cuts/med_lower_3safari.png) no-repeat;
-	  width: 72px; /* Width of new image */
-	  height: 28px; /* Height of new image */
-	  padding-left: 72px; /* Equal to width of new image */
+	  background: url(../cuts/wide_lower_3safari.png) no-repeat;
+	  width: 107px; /* Width of new image */
+	  height: 42px; /* Height of new image */
+	  padding-left: 107px; /* Equal to width of new image */
 	  display: table;
 	  margin: 0px auto;
    }
    #lower-cstar {
-	  background: url(../cuts/med_lower_4cstar.png) no-repeat;
-	  width: 113px; /* Width of new image */
-	  height: 20px; /* Height of new image */
-	  padding-left: 113px; /* Equal to width of new image */
+	  background: url(../cuts/wide_lower_4cstar.png) no-repeat;
+	  width: 167px; /* Width of new image */
+	  height: 29px; /* Height of new image */
+	  padding-left: 167px; /* Equal to width of new image */
 	  display: table;
 	  margin: 0px auto;
    }
    #lower-twitter {
-	  background: url(../cuts/med_lower_5twitter.png) no-repeat;
-	  width: 35px; /* Width of new image */
-	  height: 28px; /* Height of new image */
-	  padding-left: 35px; /* Equal to width of new image */
+	  background: url(../cuts/wide_lower_5twitter.png) no-repeat;
+	  width: 52px; /* Width of new image */
+	  height: 42px; /* Height of new image */
+	  padding-left: 52px; /* Equal to width of new image */
 	  display: table;
 	  margin: 0px auto;
    }
