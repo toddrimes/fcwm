@@ -1,0 +1,837 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+#playlists iframe div.logo.clickable.sprite {
+	display: none;
+}
+
+/* GOOGLE FONTS
+
+font-family: 'Rock Salt', cursive;
+font-family: 'Fredoka One', sans-serif;
+
+*/
+
+/* FONTS */
+
+@font-face {
+    font-family: "Hero";
+    src: url("../fonts/Hero.otf");
+}
+
+
+
+body{
+     font-family: 'Century Gothic', 'Verdana', 'Helvetica Neue', sans-serif;
+     font-size: 12px;
+     background-color: black;
+}
+
+/* Placeholder */
+
+#holderbkg {
+     background-image: url("../images/comingsoon.jpg");
+     width: 100%;
+     height: 100%;
+     background-size: cover;
+     background-repeat: no-repeat;
+
+}
+
+#holderbkg div {
+     font-family: 'Century Gothic', 'Verdana', 'Helvetica Neue', sans-serif;
+     font-size: 120px;
+     color: black;
+     text-shadow: 5px 5px #006699;
+     margin: 0 auto;
+     text-align: center;
+     bottom: 30px;
+     position: absolute;
+     width: 100%;
+     color: white;
+}
+
+/* Wrapper */
+.wrapper {
+     float: left;
+     margin-left: 300px;
+}
+
+/* Sidebar Left */
+
+.sidebar {
+  float: left;
+  width: 300px;
+  height: 100%;
+  background-color: #202020 ;
+
+}
+
+#left {
+  position: fixed;
+}
+
+#left img {
+     margin-top: 10px;
+     width: 100%;
+}
+
+
+/* Social Media */
+
+ul {
+     list-style-type: none;
+    /* margin-left: 35px;*/
+     display: inline-block;
+}
+
+#social-media {
+     margin: 0 auto;
+     text-align: center;
+}
+
+#social-media ul li {
+     float:left;
+}
+
+
+#social-media a {
+     display: inline-block;
+     height: 30px;
+     width: 30px;
+     background-image: url("../safari images/sprites/sprites2.png");
+     text-indent: -1000%;
+     margin: 8px;
+     padding: 5px;
+     text-align: left;
+}
+
+
+
+
+.pinterest a {
+     background-position: 0px 0px;
+}
+
+.pinterest a:hover {
+     background-position: 0px -30px;
+}
+
+.facebook a {
+     background-position: -60px 0px;
+}
+
+.facebook a:hover {
+     background-position: -60px -30px;
+}
+
+.instagram a {
+     background-position: -120px 0px;
+}
+
+.instagram a:hover {
+     background-position: -120px -30px;
+}
+
+.tumblr a {
+     background-position: -180px 0px;
+}
+
+.tumblr a:hover {
+     background-position: -180px -30px;
+}
+
+.twitter a {
+     background-position: -230px 0px;
+}
+
+.twitter a:hover {
+     background-position: -230px -30px;
+}
+
+
+#paypal {
+     width: 20%;
+
+}
+
+
+
+/* Center */
+#center {
+     width: 900px;
+     padding-bottom: 5px;
+     display: inline-block;
+     float: left;
+     background-color: black;
+
+}
+
+
+
+/* Video */
+#video {
+     margin-top: 5px;
+     margin-bottom: 10px; /*10px*/
+     margin-left: 5px;
+     text-align: center;
+}
+
+#video img {
+     width: 900px;
+     height: 506px;
+}
+
+#line-break {
+     margin-top:10px;
+     margin-left: 10px;
+     width: 100%;
+
+}
+
+
+/* Playlists */
+
+
+#playlists {
+     width: 600px;
+     text-align: left;
+     float: left;
+     margin-left: 0px;
+     padding-right: 0px;
+}
+
+.column {
+     float: left;
+     width: 300px;
+     margin-left: 0px;
+     padding: 0px;
+}
+
+
+
+.column iframe {;
+     width: 100%;
+}
+
+
+#playlists h4 {
+     text-align: center;
+     padding: 10px;
+}
+
+
+
+
+/* Sidebar Right */
+#right {
+     width: 300px;
+     height: 100%;
+     margin-left: 0px;
+     
+}
+
+#right h1 {
+     background: black;
+     margin-top: 0px;
+     padding: 0px 10px 15px 10px;
+
+     text-align: center;
+
+
+}
+
+#right h1 img {
+     width: 87%;
+}
+
+#blog {
+     overflow: none;
+     height: 762px;
+     font-family: Copperplate,Copperplate Gothic Light,fantasy; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
+     padding: 5px;
+     padding-top: 0px;
+     color: #00CCFF;
+}
+
+#blog iframe {
+     width: 100%;
+     height: 100%;
+}
+
+
+/* Footer */
+
+
+footer {
+     background-color: black;
+     color: #0099CC;
+     width: 100%;
+}
+
+h5 {
+     margin-top:27px;
+     color: white;    
+}
+
+#about {
+     padding: 10px;
+     font-family: 'Hero', 'Century Gothic', sans-serif;
+     margin-bottom: 0px;
+     margin-left: 10px;
+}
+
+#email {
+
+}
+
+footer a{
+     color: white;
+}
+
+
+
+#logoimgs {
+     text-align: center;
+     margin-bottom: 23px;
+     margin-right:  10px;
+}
+
+#logoimgs img {
+    width:155px; 
+    height: auto;
+    padding: 15px;
+    margin-top:23px;
+}
+
+#why {
+     margin-top: 5px;
+     margin-right: 0px;
+}
+
+
+/* Clear fix hack */
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+
+/* Responsive Media Queries */
+
+/* Tablet Layout: 768px.
+ * Gutters: 24px100 * Outer margins: 28px.
+ * Inherits styles from: Default Layout.
+ */
+
+ /* Wide Mobile Layout: 480px.
+ * Gutters: 24px.
+ * Outer margins: 22px.
+ * Inherits styles from: Default Layout, Mobile Layout.
+ */
+
+
+/* Mobile Layout: 320px.
+ * Gutters: 24px.
+ * Outer margins: 34px.
+ * Inherits styles from: Default Layout.
+ */
+
+
+
+/* LARGE SCREEN */
+
+@media only screen and (min-width:1500px)  {
+ 
+     .wrapper {
+          margin-left: 350px;
+     }
+    
+     #center {
+          width: 1000px;
+     }
+
+     #video {
+          width: 100%;
+     }
+
+     #video img {
+          width: 1000px;
+          height: 563px;
+
+     }
+
+     #playlists {
+          width: 66.66%;
+     }
+
+     .column {
+          width: 50%;
+     }
+
+     #your-favorite img {
+     
+          width: 90%;
+
+     }
+
+     #right {
+          width: 33.33%;
+     }
+
+     #blog { 
+
+          height: 1000px;
+
+     }
+
+     footer {
+          width: 100%;
+     }
+
+
+
+}
+
+
+
+/* IPAD */
+ 
+@media only screen and (min-width:668px) and (max-width: 770px) {
+
+     .sidebar {
+
+          width: 200px;
+
+     }
+
+     #social-media ul li{
+
+          float: none;
+          padding: 5px;
+          margin-left: -5px;
+
+     }
+
+     .wrapper {
+          margin-left: 220px;
+     }
+
+     #center {
+          width: 500px;
+     }
+
+
+     #video img {
+          width: 500px;
+          height: 281px;
+
+     }
+
+
+     #playlists {
+          width: 100%;
+     }
+
+     .column {
+          width: 48%;
+          margin-left: 2%;
+     }
+
+     #right {
+          width: 100%;
+          height: 500px;
+     }
+
+
+     #blog { 
+
+          height: 400px;
+          width: 100%;
+          -webkit-overflow-scrolling: touch;
+          overflow-y: scroll;
+     }
+
+     #right h1 img {
+          
+          width: 70%;
+
+     }
+
+
+
+     footer {
+          width: 100%;
+     }
+
+      #holderbkg div {
+          font-size: 50px;
+     }
+
+
+
+
+} 
+
+
+/* IPHONE */
+
+@media only screen and (min-width: 300px) and (max-width: 667px) {
+
+     #left {
+
+          width: 100%;
+          height: 100%;
+          float: none;
+          position: static;
+          text-align: center;
+
+     }
+
+     #left img {
+
+          width: 50%;
+     }
+
+     #social-media {
+
+          background-color: #202020
+     }
+
+     #social-media ul li{
+
+          float: left;
+
+     }
+
+     #social-media ul li a {
+          text-indent: -5000px;
+     }
+
+     .wrapper {
+          float: none;
+          position: static;
+          margin-left: 0px;
+     }
+
+     #center {
+          float: none;
+          position: static;
+          width: 100% ;
+          margin-top: 20px;
+
+     }
+
+
+     #video img {
+          width: 100%;
+          height: auto;
+
+     }
+
+
+     #playlists {
+          width: 100%;
+     }
+
+     .column {
+          width: 100%;
+     }
+
+     #right {
+          width: 100%;
+          height: 500px;
+     }
+
+
+     #blog { 
+
+          height: 400px;
+          width: 100%;
+          -webkit-overflow-scrolling: touch;
+          overflow-y: scroll;
+     }
+
+     #right h1 img {
+          
+          width: 50%;
+
+     }
+
+     #your-favorite img {
+
+          width: 260px;
+
+     }
+
+
+
+     footer {
+          margin-top: 20px;
+          width: 100%;
+     }
+
+     #logoimgs {
+          width: 100%;
+     }
+
+     #logoimgs a {
+          width: 100%;
+          float: left;
+
+     }
+
+     #logoimgs a img {
+          width: 200px;
+     }
+
+     #holderbkg div {
+          font-size: 50px;
+     }
+
+
+
+
+}
+
+/* RESOURCES & EXAMPLES
+
+Media Query Tutorials:
+
+http://mobile.smashingmagazine.com/2010/07/19/how-to-use-css3-media-queries-to-create-a-mobile-version-of-your-website/
+
+http://webdesignerwall.com/tutorials/css3-media-queries
+
+Creating Responsive SVG Image Tutorial: 
+
+http://www.joshuasortino.com/journal/creating-a-responsive-svg
+
+Example Sites:
+
+http://owltastic.com/
+
+http://sweethatclub.org/
+
+http://www.alistapart.com/d/responsive-web-design/ex/ex-site-FINAL.html
+
+*/
+
+.responsive {
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+#top-logos, #lower-logos, #lower-logos-upper, #lower-logos-lower {
+    display: -webkit-flex !important; /* Safari */
+    -webkit-justify-content: space-around !important; /* Safari 6.1+ */
+    display: flex;
+    justify-content: space-around;
+	align-items: center;
+	margin: 5px 0px 10px 0px;
+}
+
+@media only screen
+and (min-device-width : 0px)
+and (max-device-width : 720px)  {
+	.mode-sm {
+		visibility:visible;
+	}
+	.mode-med, .mode-wide {
+		visibility:hidden;
+	}
+	
+	#top-fcwm { 
+	  background: url(../cuts/sm_fcwm_logo.png) no-repeat;
+	  width: 158px; /* Width of new image */
+	  height: 12px; /* Height of new image */
+	  padding-left: 158px; /* Equal to width of new image */
+	 }
+	#top-why { 
+	  background: url(../cuts/sm_why_logo.png) no-repeat;
+	  width: 21px; /* Width of new image */
+	  height: 11px; /* Height of new image */
+	  padding-left: 21px; /* Equal to width of new image */
+	 }
+	#top-pgen { 
+	  background: url(../cuts/sm_playlistgen_logo.png) no-repeat;
+	  width: 17px; /* Width of new image */
+	  height: 11px; /* Height of new image */
+	  padding-left: 17px; /* Equal to width of new image */
+	 }
+	#top-cstar { 
+	  background: url(../cuts/sm_cstarpr_logo.png) no-repeat;
+	  width: 51px; /* Width of new image */
+	  height: 9px; /* Height of new image */
+	  padding-left: 51px; /* Equal to width of new image */
+	}
+	h4 { 
+	 	margin-top: 44px;
+	 	margin-bottom: 20px;
+	}
+	.pt_1 { 
+	  background: url(../cuts/sm_pt_1thediagnosis.png) no-repeat;
+	  width: 249px; /* Width of new image */
+	  height: 49px; /* Height of new image */
+	  padding-left: 249px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_2 { 
+	  background: url(../cuts/sm_pt_2preop.png) no-repeat;
+	  width: 245px; /* Width of new image */
+	  height: 49px; /* Height of new image */
+	  padding-left: 245px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_3 { 
+	  background: url(../cuts/sm_pt_3recovery.png) no-repeat;
+	  width: 245px; /* Width of new image */
+	  height: 49px; /* Height of new image */
+	  padding-left: 245px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_4 { 
+	  background: url(../cuts/sm_pt_4shaving.png) no-repeat;
+	  width: 246px; /* Width of new image */
+	  height: 49px; /* Height of new image */
+	  padding-left: 246px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_5 { 
+	  background: url(../cuts/sm_pt_5gettingout.png) no-repeat;
+	  width: 245px; /* Width of new image */
+	  height: 49px; /* Height of new image */
+	  padding-left: 245px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_6 { 
+	  background: url(../cuts/sm_pt_6beingunderstood.png) no-repeat;
+	  width: 245px; /* Width of new image */
+	  height: 50px; /* Height of new image */
+	  padding-left: 245px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_7 { 
+	  background: url(../cuts/sm_pt_7celebration.png) no-repeat;
+	  width: 246px; /* Width of new image */
+	  height: 47px; /* Height of new image */
+	  padding-left: 246px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_8 { 
+	  background: url(../cuts/sm_pt_8bodyscans.png) no-repeat;
+	  width: 246px; /* Width of new image */
+	  height: 47px; /* Height of new image */
+	  padding-left: 246px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_9 { 
+	  background: url(../cuts/sm_pt_9postop.png) no-repeat;
+	  width: 246px; /* Width of new image */
+	  height: 47px; /* Height of new image */
+	  padding-left: 246px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_10 { 
+	  background: url(../cuts/sm_pt_10chemoday1.png) no-repeat;
+	  width: 246px; /* Width of new image */
+	  height: 47px; /* Height of new image */
+	  padding-left: 246px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_11 { 
+	  background: url(../cuts/sm_pt_11chemodaily.png) no-repeat;
+	  width: 246px; /* Width of new image */
+	  height: 47px; /* Height of new image */
+	  padding-left: 246px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_12 { 
+	  background: url(../cuts/sm_pt_12radiation.png) no-repeat;
+	  width: 246px; /* Width of new image */
+	  height: 47px; /* Height of new image */
+	  padding-left: 246px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_13 { 
+	  background: url(../cuts/sm_pt_13followups.png) no-repeat;
+	  width: 246px; /* Width of new image */
+	  height: 47px; /* Height of new image */
+	  padding-left: 246px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_14 { 
+	  background: url(../cuts/sm_pt_14caregivers.png) no-repeat;
+	  width: 246px; /* Width of new image */
+	  height: 47px; /* Height of new image */
+	  padding-left: 246px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_15 { 
+	  background: url(../cuts/sm_pt_15favorites.png) no-repeat;
+	  width: 246px; /* Width of new image */
+	  height: 47px; /* Height of new image */
+	  padding-left: 246px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	 #video-fpo { 
+	  background: url(../cuts/sm_video_fpo.png) no-repeat;
+	  width: 320; /* Width of new image */
+	  height: 183px; /* Height of new image */
+	  padding-left: 320px; /* Equal to width of new image */
+	  margin-left: 0px;
+	  padding: none !important
+	 }
+}
+
+@media only screen
+and (min-device-width : 721px)
+and (max-device-width : 868px)  {
+	
+	#top-fcwm { 
+	  background: url(../cuts/med_fcwm_logo.png) no-repeat;	
+	  width: 326px;
+	  height: 24px;
+	  padding-left: 326px; /* Equal to width of new image */
+	 }
+	 
+}
+
+@media only screen
+and (min-device-width : 869px)  {
+	
+	#top-fcwm { 
+	  background: url(../cuts/wide_fcwm_logo.png) no-repeat;	
+	  width: 482px;
+	  height: 35px;
+	  padding-left: 482px; /* Equal to width of new image */
+	 }
+}
