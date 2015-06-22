@@ -892,7 +892,7 @@ and (max-device-width : 868px)  {
 	 #video-fpo { 
 	  background: url(../cuts/med_video_fpo.png) no-repeat;
 	  width: 768px; /* Width of new image */
-	  height: 390px; /* Height of new image */
+	  height: 340px; /* Height of new image */
 	  padding-left: 768px; /* Equal to width of new image */
 	  margin-left: 0px;
 	  padding: none !important
