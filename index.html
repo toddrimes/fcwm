@@ -1,25 +1,1290 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <meta name="description" content="Your description goes here">
     <meta name="keywords" content="one, two, three">
     <title>Fighting Cancer With Music</title>
-    <link rel="stylesheet" href="http://www.thewhyfoundation.org/listen/css/normalize.css">
-    <link rel="stylesheet" href="http://www.thewhyfoundation.org/listen/css/foundation.css">
-    <link rel="stylesheet" href="http://www.thewhyfoundation.org/listen/css/style.css">
-	<link href="./css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="/css/foundation.css">
+    <link rel="stylesheet" href="/css/listen.css" type="text/css">
+    <style type="text/css">
+
+    iframe {
+        border: 0px;
+    }
+    
+    * {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+#playlists iframe div.logo.clickable.sprite {
+    display: none;
+}
+
+/* GOOGLE FONTS
+
+font-family: 'Rock Salt', cursive;
+font-family: 'Fredoka One', sans-serif;
+
+*/
+
+/* FONTS */
+
+@font-face {
+    font-family: "Hero";
+    src: url("../fonts/Hero.otf");
+}
+
+
+
+body{
+     font-family: 'Century Gothic', 'Verdana', 'Helvetica Neue', sans-serif;
+     font-size: 12px;
+     background-color: black;
+}
+
+/* Placeholder */
+
+#holderbkg {
+     background-image: url("../images/comingsoon.jpg");
+     width: 100%;
+     height: 100%;
+     background-size: cover;
+     background-repeat: no-repeat;
+
+}
+
+#holderbkg div {
+     font-family: 'Century Gothic', 'Verdana', 'Helvetica Neue', sans-serif;
+     font-size: 120px;
+     color: black;
+     text-shadow: 5px 5px #006699;
+     margin: 0 auto;
+     text-align: center;
+     bottom: 30px;
+     position: absolute;
+     width: 100%;
+     color: white;
+}
+
+/* Wrapper */
+.wrapper {
+     float: left;
+     margin-left: 300px;
+}
+
+/* Sidebar Left */
+
+.sidebar {
+  float: left;
+  width: 300px;
+  height: 100%;
+  background-color: #202020 ;
+
+}
+
+#left {
+  position: fixed;
+}
+
+#left img {
+     margin-top: 10px;
+     width: 100%;
+}
+
+
+/* Social Media */
+
+ul {
+     list-style-type: none;
+    /* margin-left: 35px;*/
+     display: inline-block;
+}
+
+#social-media {
+     margin: 0 auto;
+     text-align: center;
+}
+
+#social-media ul li {
+     float:left;
+}
+
+
+#social-media a {
+     display: inline-block;
+     height: 30px;
+     width: 30px;
+     background-image: url("../safari images/sprites/sprites2.png");
+     text-indent: -1000%;
+     margin: 8px;
+     padding: 5px;
+     text-align: left;
+}
+
+
+
+
+.pinterest a {
+     background-position: 0px 0px;
+}
+
+.pinterest a:hover {
+     background-position: 0px -30px;
+}
+
+.facebook a {
+     background-position: -60px 0px;
+}
+
+.facebook a:hover {
+     background-position: -60px -30px;
+}
+
+.instagram a {
+     background-position: -120px 0px;
+}
+
+.instagram a:hover {
+     background-position: -120px -30px;
+}
+
+.tumblr a {
+     background-position: -180px 0px;
+}
+
+.tumblr a:hover {
+     background-position: -180px -30px;
+}
+
+.twitter a {
+     background-position: -230px 0px;
+}
+
+.twitter a:hover {
+     background-position: -230px -30px;
+}
+
+
+#paypal {
+     width: 20%;
+
+}
+
+
+
+/* Center */
+#center {
+     width: 900px;
+     padding-bottom: 5px;
+     display: inline-block;
+     float: left;
+     background-color: black;
+
+}
+
+
+
+/* Video */
+#video {
+     margin-top: 5px;
+     margin-bottom: 10px; /*10px*/
+     margin-left: 5px;
+     text-align: center;
+}
+
+#video img {
+     width: 900px;
+     height: 506px;
+}
+
+#line-break {
+     margin-top:10px;
+     margin-left: 10px;
+     width: 100%;
+
+}
+
+
+/* Playlists */
+
+
+#playlists {
+     width: 600px;
+     text-align: left;
+     float: left;
+     margin-left: 0px;
+     padding-right: 0px;
+}
+
+.column {
+     float: left;
+     width: 300px;
+     margin-left: 0px;
+     padding: 0px;
+}
+
+
+
+.column iframe {;
+     width: 100%;
+}
+
+
+#playlists h4 {
+     text-align: center;
+     padding: 10px;
+}
+
+
+
+
+/* Sidebar Right */
+#right {
+     width: 300px;
+     height: 100%;
+     margin-left: 0px;
+     
+}
+
+#right h1 {
+     background: black;
+     margin-top: 0px;
+     padding: 0px 10px 15px 10px;
+
+     text-align: center;
+
+
+}
+
+#right h1 img {
+     width: 87%;
+}
+
+#blog {
+     overflow: hidden;
+     height: 762px;
+     font-family: Copperplate,"Copperplate Gothic Light", fantasy; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
+     padding: 5px;
+     padding-top: 0px;
+     color: #00CCFF;
+}
+
+#blog iframe {
+     width: 100%;
+     height: 100%;
+}
+
+
+/* Footer */
+
+
+footer {
+     background-color: black;
+     color: #0099CC;
+     width: 100%;
+}
+
+h5 {
+     margin-top:27px;
+     color: white;    
+}
+
+#about {
+     padding: 10px;
+     font-family: 'Hero', 'Century Gothic', sans-serif;
+     margin-bottom: 0px;
+     margin-left: 10px;
+}
+
+#email {
+
+}
+
+footer a{
+     color: white;
+}
+
+
+
+#logoimgs {
+     text-align: center;
+     margin-bottom: 23px;
+     margin-right:  10px;
+}
+
+#logoimgs img {
+    width:155px; 
+    height: auto;
+    padding: 15px;
+    margin-top:23px;
+}
+
+#why {
+     margin-top: 5px;
+     margin-right: 0px;
+}
+
+
+/* Clear fix hack */
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+
+
+.responsive {
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+    #top-logos, #lower-logos, #lower-logos-upper, #lower-logos-lower {
+         text-align: justify;
+    }
+
+    #top-logos::after, #lower-logos::after, #lower-logos-upper::after, #lower-logos-lower::after {
+         width: 100%; display: inline-block; content: "."; visibility: hidden
+    }
+
+    #top-logos > li, #lower-logos > li, #lower-logos-upper > li, #lower-logos-lower > li {
+         display: inline-block;
+    }
+	
+#headerWrapper {
+	background-color: #000;
+	position:fixed;
+	top:0;
+	height: 90px;
+	z-index: 100;
+}
+
+
+/* Responsive Media Queries */
+
+/* Tablet Layout: 768px.
+ * Gutters: 24px100 * Outer margins: 28px.
+ * Inherits styles from: Default Layout.
+ */
+
+ /* Wide Mobile Layout: 480px.
+ * Gutters: 24px.
+ * Outer margins: 22px.
+ * Inherits styles from: Default Layout, Mobile Layout.
+ */
+
+
+/* Mobile Layout: 320px.
+ * Gutters: 24px.
+ * Outer margins: 34px.
+ * Inherits styles from: Default Layout.
+ */
+
+
+/* IPHONE */
+
+@media only screen {
+
+     #left {
+
+          width: 100%;
+          height: 100%;
+          float: none;
+          position: static;
+          text-align: center;
+
+     }
+
+     #left img {
+
+          width: 50%;
+     }
+
+     #social-media {
+
+          background-color: #202020
+     }
+
+     #social-media ul li{
+
+          float: left;
+
+     }
+
+     #social-media ul li a {
+          text-indent: -5000px;
+     }
+
+     .wrapper {
+          float: none;
+          position: static;
+          margin-left: 0px;
+     }
+
+     #center {
+          float: none;
+          position: static;
+          width: 100% ;
+          margin-top: 20px;
+
+     }
+
+
+     #video img {
+          width: 100%;
+          height: auto;
+
+     }
+
+
+     #playlists {
+          width: 100%;
+     }
+
+     .column {
+          width: 100%;
+     }
+
+     #right {
+          width: 100%;
+          height: 500px;
+     }
+
+
+     #blog { 
+
+          height: 400px;
+          width: 100%;
+          -webkit-overflow-scrolling: touch;
+          overflow-y: scroll;
+     }
+
+     #right h1 img {
+          
+          width: 50%;
+
+     }
+
+     #your-favorite img {
+
+          width: 260px;
+
+     }
+
+
+
+     footer {
+          margin-top: 20px;
+          width: 100%;
+     }
+
+     #logoimgs {
+          width: 100%;
+     }
+
+     #logoimgs a {
+          width: 100%;
+          float: left;
+
+     }
+
+     #logoimgs a img {
+          width: 200px;
+     }
+
+     #holderbkg div {
+          font-size: 50px;
+     }
+
+     #headerWrapper {
+       width: 330px;
+       height: 20px;
+       padding-top: 10px;
+       background-color: #000;
+       top: 0;
+       height: 40px;
+       z-index: 100;
+     }
+	 
+	 #big-logos { display: none;}	   
+	 
+	 #sm-logos { display: block;}	
+	
+	#top-fcwm {
+    background-image: url("/cuts/med_fcwm_logo.png");
+    width: 300px;
+    height: 20px;
+    padding-left: 300px;
+    background-size: cover;
+	 }
+	#top-why { 
+     display: none;
+	 }
+	#top-pgen {
+         display: none;
+	 }
+	#top-cstar {
+         display: none;
+	}
+	
+	 #video-fpo { 
+	  background-image: url("/cuts/sm_video_fpo.png");
+	  width: 320px; /* Width of new image */
+	  height: 183px; /* Height of new image */
+	  padding-left: 320px; /* Equal to width of new image */
+	  margin: 20px 0px 0px 0px;
+	  padding: 0px !important
+	 }
+
+
+     iframe {
+          height: 350px;
+     }
+
+     #all-playlists {
+          margin: 0px auto;
+          text-align: center;
+          width: 250px;
+          position: relative;
+     }
+
+     div.column.clearfix {
+          height: 475px;
+          position: relative;
+     }
+
+     div.column.clearfix > .pt-header {
+          margin-top: 20px;
+          margin-bottom: 15px;
+     }
+
+     div.column.clearfix > .pt-header
+     {
+          background-size: cover;
+          width: 250px;
+          height: 50px;
+          padding-left: 250px;
+          margin: 35px auto 10px;
+     }
+	 
+	.pt_1 {
+	  background-image: url("/cuts/sm_pt_1thediagnosis.png");
+	  width: 249px; /* Width of new image */
+	  height: 49px; /* Height of new image */
+	  padding-left: 249px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_2 {
+	  background-image: url("/cuts/sm_pt_2preop.png");
+	  width: 245px; /* Width of new image */
+	  height: 49px; /* Height of new image */
+	  padding-left: 245px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_3 {
+	  background-image: url("/cuts/sm_pt_3recovery.png");
+	  width: 245px; /* Width of new image */
+	  height: 49px; /* Height of new image */
+	  padding-left: 245px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_4 {
+	  background-image: url("/cuts/sm_pt_4shaving.png");
+	  width: 246px; /* Width of new image */
+	  height: 49px; /* Height of new image */
+	  padding-left: 246px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_5 {
+	  background-image: url("/cuts/sm_pt_5gettingout.png");
+	  width: 245px; /* Width of new image */
+	  height: 49px; /* Height of new image */
+	  padding-left: 245px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_6 {
+	  background-image: url("/cuts/sm_pt_6beingunderstood.png");
+	  width: 245px; /* Width of new image */
+	  height: 50px; /* Height of new image */
+	  padding-left: 245px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_7 {
+	  background-image: url("/cuts/sm_pt_7celebration.png");
+	  width: 246px; /* Width of new image */
+	  height: 47px; /* Height of new image */
+	  padding-left: 246px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_8 {
+	  background-image: url("/cuts/sm_pt_8bodyscans.png");
+	  width: 246px; /* Width of new image */
+	  height: 47px; /* Height of new image */
+	  padding-left: 246px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_9 {
+	  background-image: url("/cuts/sm_pt_9postop.png");
+	  width: 246px; /* Width of new image */
+	  height: 47px; /* Height of new image */
+	  padding-left: 246px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_10 {
+	  background-image: url("/cuts/sm_pt_10chemoday1.png");
+	  width: 246px; /* Width of new image */
+	  height: 47px; /* Height of new image */
+	  padding-left: 246px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_11 {
+	  background-image: url("/cuts/sm_pt_11chemodaily.png");
+	  width: 246px; /* Width of new image */
+	  height: 47px; /* Height of new image */
+	  padding-left: 246px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_12 {
+	  background-image: url("/cuts/sm_pt_12radiation.png");
+	  width: 246px; /* Width of new image */
+	  height: 47px; /* Height of new image */
+	  padding-left: 246px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_13 {
+	  background-image: url("/cuts/sm_pt_13followups.png");
+	  width: 246px; /* Width of new image */
+	  height: 47px; /* Height of new image */
+	  padding-left: 246px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_14 {
+	  background-image: url("/cuts/sm_pt_14caregivers.png");
+	  width: 246px; /* Width of new image */
+	  height: 47px; /* Height of new image */
+	  padding-left: 246px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_15 {
+	  background-image: url("/cuts/sm_pt_15favorites.png");
+	  width: 246px; /* Width of new image */
+	  height: 47px; /* Height of new image */
+	  padding-left: 246px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+
+   .lower-why {
+	  background-image: url("/cuts/med_lower_1whylogo.png");
+	  width: 57px; /* Width of new image */
+	  height: 28px; /* Height of new image */
+	  padding-left: 57px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+   }
+   .lower-pgen {
+	  background-image: url("/cuts/med_lower_2pgen.png");
+	  width: 49px; /* Width of new image */
+	  height: 28px; /* Height of new image */
+	  padding-left: 49px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+   }
+   .lower-safari {
+	  background-image: url("/cuts/med_lower_3safari.png");
+	  width: 72px; /* Width of new image */
+	  height: 28px; /* Height of new image */
+	  padding-left: 72px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+   }
+   .lower-cstar {
+	  background-image: url("/cuts/med_lower_4cstar.png");
+	  width: 113px; /* Width of new image */
+	  height: 20px; /* Height of new image */
+	  padding-left: 113px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+   }
+   .lower-twitter {
+	  background-image: url("/cuts/med_lower_5twitter.png");
+	  width: 35px; /* Width of new image */
+	  height: 28px; /* Height of new image */
+	  padding-left: 35px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+   }
+
+}
+
+/* IPAD */
+
+@media only screen and (min-width:768px) {
+
+     .sidebar {
+
+          width: 200px;
+
+     }
+
+     #social-media ul li{
+
+          float: none;
+          padding: 5px;
+          margin-left: -5px;
+
+     }
+
+     .wrapper {
+          margin-left: 220px;
+     }
+
+     #center {
+          width: 500px;
+     }
+
+
+     #video img {
+          width: 500px;
+          height: 281px;
+
+     }
+
+
+     #playlists {
+          width: 100%;
+     }
+
+     .column {
+          width: 300px;
+          / * margin-left: 2%; */
+     }
+
+     #right {
+          width: 100%;
+          height: 500px;
+     }
+
+
+     #blog {
+
+          height: 400px;
+          width: 100%;
+          -webkit-overflow-scrolling: touch;
+          overflow-y: scroll;
+     }
+
+     #right h1 img {
+
+          width: 70%;
+
+     }
+
+
+
+     footer {
+          width: 100%;
+     }
+
+      #holderbkg div {
+          font-size: 50px;
+     }
+
+    #headerWrapper {
+        padding-top: 20px;
+        height: 95px;
+        width: 100%;
+	}
+
+    #headerWrapper ul {
+        display: table;
+        margin: 0px auto;
+        list-style:none;
+        padding-left:0;
+    }
+
+	 #big-logos { display: block;}
+
+	 #sm-logos { display: none;}
+
+	#top-fcwm {
+	  background-image: url("/cuts/med_fcwm_logo.png");
+	  width: 326px;
+	  height: 24px;
+	  padding-left: 326px;
+      left: 0px;
+	 }
+
+	#top-why {
+	  background-image: url("/cuts/med_why_logo.png");
+	  width: 42px; /* Width of new image */
+	  height: 23px; /* Height of new image */
+	  padding-left: 42px; /* Equal to width of new image */
+	 }
+	#top-pgen {
+	  background-image: url("/cuts/med_playlistgen_logo.png");
+	  width: 36px; /* Width of new image */
+	  height: 23px; /* Height of new image */
+	  padding-left: 36px; /* Equal to width of new image */
+	 }
+	#top-cstar {
+	  background-image: url("/cuts/med_cstarpr_logo.png");
+	  width: 106px; /* Width of new image */
+	  height: 18px; /* Height of new image */
+	  padding-left: 106px; /* Equal to width of new image */
+	}
+
+	 #video-fpo {
+	  background-image: url("/cuts/med_video_fpo.png");
+	  width: 768px; /* Width of new image */
+	  height: 433px; /* Height of new image */
+	  padding-left: 768px; /* Equal to width of new image */
+	  margin-left: 0px;
+	  padding: 0px !important
+	 }
+
+	 #video-fpo {
+		 display: table;
+		 margin: 60px auto 0px;
+	 }
+
+     iframe {
+         /* width: 320px; */
+         height: 445px;
+     }
+
+     #all-playlists {
+          margin: 0px auto;
+          text-align: center;
+          width: 768px;
+     }
+
+     div.column.clearfix > div {
+          background-size: cover;;
+          width: 300px; /* Width of new image */
+          height: 61px; /* Height of new image */
+          padding-left: 300px; /* Equal to width of new image */
+          margin: 40px auto 15px;
+     }
+
+     div.column.clearfix.even {
+          margin-left: 168px;
+     }
+
+	.pt_1 {
+	  background-image: url("/cuts/med_pt_1thediagnosis.png");
+
+	 }
+	.pt_2 {
+	  background-image: url("/cuts/med_pt_2preop.png");
+
+	 }
+	.pt_3 {
+	  background-image: url("/cuts/med_pt_3recovery.png");
+
+	 }
+	.pt_4 {
+	  background-image: url("/cuts/med_pt_4shaving.png");
+
+	 }
+	.pt_5 {
+	  background-image: url("/cuts/med_pt_5gettingout.png");
+
+	 }
+	.pt_6 {
+         background-image: url("/cuts/med_pt_6beingunderstood.png");
+    }
+	.pt_7 {
+	  background-image: url("/cuts/med_pt_7celebration.png");
+
+	 }
+	.pt_8 {
+	  background-image: url("/cuts/med_pt_8bodyscans.png");
+
+	 }
+	.pt_9 {
+	  background-image: url("/cuts/med_pt_9postop.png");
+	 }
+	.pt_10 {
+	  background-image: url("/cuts/med_pt_10chemoday1.png");
+	 }
+	.pt_11 {
+	  background-image: url("/cuts/med_pt_11chemodaily.png");
+	 }
+	.pt_12 {
+	  background-image: url("/cuts/med_pt_12radiation.png");
+	 }
+	.pt_13 {
+	  background-image: url("/cuts/med_pt_13followups.png");
+	 }
+	.pt_14 {
+	  background-image: url("/cuts/med_pt_14caregivers.png");
+	 }
+	.pt_15 {
+	  background-image: url("/cuts/med_pt_15favorites.png");
+	 }
+   .lower-why {
+	  background-image: url("/cuts/med_lower_1whylogo.png");
+	  width: 57px; /* Width of new image */
+	  height: 28px; /* Height of new image */
+	  padding-left: 57px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+   }
+   .lower-pgen {
+	  background-image: url("/cuts/med_lower_2pgen.png");
+	  width: 49px; /* Width of new image */
+	  height: 28px; /* Height of new image */
+	  padding-left: 49px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+   }
+   .lower-safari {
+	  background-image: url("/cuts/med_lower_3safari.png");
+	  width: 72px; /* Width of new image */
+	  height: 28px; /* Height of new image */
+	  padding-left: 72px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+   }
+   .lower-cstar {
+	  background-image: url("/cuts/med_lower_4cstar.png");
+	  width: 113px; /* Width of new image */
+	  height: 20px; /* Height of new image */
+	  padding-left: 113px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+   }
+   .lower-twitter {
+	  background-image: url("/cuts/med_lower_5twitter.png");
+	  width: 35px; /* Width of new image */
+	  height: 28px; /* Height of new image */
+	  padding-left: 35px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+   }
+
+}
+
+
+/* LARGE SCREEN */
+
+@media only screen and (min-width:1024px)  {
+
+     .wrapper {
+          margin-left: 350px;
+     }
+
+     #center {
+          width: 1000px;
+     }
+
+     #video {
+          width: 100%;
+     }
+
+     #video img {
+          width: 1000px;
+          height: 563px;
+
+     }
+
+     #playlists {
+          width: 66.66%;
+     }
+
+     .column {
+          width: 30%;
+     }
+
+     #your-favorite img {
+
+          width: 90%;
+
+     }
+
+     #right {
+          width: 33.33%;
+     }
+
+     #blog {
+
+          height: 1000px;
+
+     }
+
+     footer {
+          width: 100%;
+     }
+
+    #headerWrapper {
+    	width: 1000px;
+	}
+
+    #headerWrapper ul {
+		width: 869px;
+        display: table;
+        margin: 30px 65px;
+	}
+
+	 #big-logos { display: block;}
+
+	 #sm-logos { display: none;}
+
+	#top-fcwm {
+	  background-image: url("/cuts/wide_fcwm_logo.png");
+	  width: 482px;
+	  height: 35px;
+	  padding-left: 482px; /* Equal to width of new image */
+	 }
+
+	#top-why {
+	  background-image: url("/cuts/wide_why_logo.png");
+	  width: 63px; /* Width of new image */
+	  height: 33px; /* Height of new image */
+	  padding-left: 63px; /* Equal to width of new image */
+	 }
+	#top-pgen {
+	  background-image: url("/cuts/wide_playlistgen_logo.png");
+	  width: 54px; /* Width of new image */
+	  height: 33px; /* Height of new image */
+	  padding-left: 54px; /* Equal to width of new image */
+	 }
+	#top-cstar {
+	  background-image: url("/cuts/wide_cstarpr_logo.png");
+	  width: 157px; /* Width of new image */
+	  height: 27px; /* Height of new image */
+	  padding-left: 157px; /* Equal to width of new image */
+	}
+
+	 #video-fpo {
+	  background-image: url("/cuts/wide_video_fpo.png");
+	  width: 868px; /* Width of new image */
+	  height: 489px; /* Height of new image */
+	  padding-left: 868px; /* Equal to width of new image */
+	  margin-left: 0px;
+	  padding: 0px !important
+	 }
+
+	 #video-fpo {
+		 display: table;
+		 margin: 90px auto 0px;
+	 }
+
+	 #all-playlists {
+		 margin: 0px auto;
+          text-align: center;
+         width: 868px;
+	 }
+
+	div.column.clearfix > div {
+	 	margin-top: 60px;
+	 	margin-bottom: 20px;
+	}
+	.pt_1 {
+	  background-image: url("/cuts/wide_pt_1thediagnosis.png");
+	  width: 212px; /* Width of new image */
+	  height: 41px; /* Height of new image */
+	  padding-left: 212px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_2 {
+	  background-image: url("/cuts/wide_pt_2preop.png");
+	  width: 212px; /* Width of new image */
+	  height: 41px; /* Height of new image */
+	  padding-left: 212px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_3 {
+	  background-image: url("/cuts/wide_pt_3recovery.png");
+	  width: 212px; /* Width of new image */
+	  height: 41px; /* Height of new image */
+	  padding-left: 212px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_4 {
+	  background-image: url("/cuts/wide_pt_4shaving.png");
+	  width: 212px; /* Width of new image */
+	  height: 41px; /* Height of new image */
+	  padding-left: 212px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_5 {
+	  background-image: url("/cuts/wide_pt_5gettingout.png");
+	  width: 212px; /* Width of new image */
+	  height: 41px; /* Height of new image */
+	  padding-left: 212px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_6 {
+	  background-image: url("/cuts/wide_pt_6beingunderstood.png");
+	  width: 212px; /* Width of new image */
+	  height: 41px; /* Height of new image */
+	  padding-left: 212px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_7 {
+	  background-image: url("/cuts/wide_pt_7celebration.png");
+	  width: 212px; /* Width of new image */
+	  height: 41px; /* Height of new image */
+	  padding-left: 212px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_8 {
+	  background-image: url("/cuts/wide_pt_8bodyscans.png");
+	  width: 212px; /* Width of new image */
+	  height: 41px; /* Height of new image */
+	  padding-left: 212px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_9 {
+	  background-image: url("/cuts/wide_pt_9postop.png");
+	  width: 212px; /* Width of new image */
+	  height: 41px; /* Height of new image */
+	  padding-left: 212px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_10 {
+	  background-image: url("/cuts/wide_pt_10chemoday1.png");
+	  width: 212px; /* Width of new image */
+	  height: 41px; /* Height of new image */
+	  padding-left: 212px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_11 {
+	  background-image: url("/cuts/wide_pt_11chemodaily.png");
+	  width: 212px; /* Width of new image */
+	  height: 41px; /* Height of new image */
+	  padding-left: 212px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_12 {
+	  background-image: url("/cuts/wide_pt_12radiation.png");
+	  width: 212px; /* Width of new image */
+	  height: 41px; /* Height of new image */
+	  padding-left: 212px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_13 {
+	  background-image: url("/cuts/wide_pt_13followups.png");
+	  width: 212px; /* Width of new image */
+	  height: 41px; /* Height of new image */
+	  padding-left: 212px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_14 {
+	  background-image: url("/cuts/wide_pt_14caregivers.png");
+	  width: 212px; /* Width of new image */
+	  height: 41px; /* Height of new image */
+	  padding-left: 212px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+	.pt_15 {
+	  background-image: url("/cuts/wide_pt_15favorites.png");
+	  width: 212px; /* Width of new image */
+	  height: 41px; /* Height of new image */
+	  padding-left: 212px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+	 }
+   .lower-why {
+	  background-image: url("/cuts/wide_lower_1whylogo.png");
+	  width: 84px; /* Width of new image */
+	  height: 43px; /* Height of new image */
+	  padding-left: 84px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+   }
+   .lower-pgen {
+	  background-image: url("/cuts/wide_lower_2pgen.png");
+	  width: 73px; /* Width of new image */
+	  height: 43px; /* Height of new image */
+	  padding-left: 73px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+   }
+   .lower-safari {
+	  background-image: url("/cuts/wide_lower_3safari.png");
+	  width: 107px; /* Width of new image */
+	  height: 42px; /* Height of new image */
+	  padding-left: 107px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+   }
+   .lower-cstar {
+	  background-image: url("/cuts/wide_lower_4cstar.png");
+	  width: 167px; /* Width of new image */
+	  height: 29px; /* Height of new image */
+	  padding-left: 167px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+   }
+   .lower-twitter {
+	  background-image: url("/cuts/wide_lower_5twitter.png");
+	  width: 52px; /* Width of new image */
+	  height: 42px; /* Height of new image */
+	  padding-left: 52px; /* Equal to width of new image */
+	  display: table;
+	  margin: 0px auto;
+   }
+
+}
+
+
+</style>
     </head>
   <body>
 
 <!--Content Container-->
 
-  <div class="container-fixed"> 
+  <div class="container-fixed">
 
 <!--Fixed Header-->
 
-   <header class="">
+  <header id="headerWrapper">
    <ul id="top-logos">
    <li><a href=""><div class="responsive" id="top-fcwm"></div></a></li>
    <li><a href=""><div class="responsive" id="top-why"></div></a></li>
@@ -27,97 +1292,127 @@
    <li><a href=""><div class="responsive" id="top-cstar"></div></a></li>
    </ul>
   </header>
-  
+
 <!--Video-->
- 
+
    <div class="row" id="video">
     <div class="large-12">
-     <div href="" class="responsive" id="video-fpo"></div>
+     <div class="responsive" id="video-fpo"><a name="responsive" id="video-fpo">&nbsp;</a></div>
     </div>
   </div>
 
-    
- 
+
+
  <!--Playlists-->
   <div id="all-playlists">
-    <div class="column clearfix">
-      <h4><div class="pt_1"></div></h4>
-      <iframe src="https://embed.spotify.com/?wmode=transparent&uri=spotify:user:fcwmusic:playlist:2YiO5RgUJEU4tEXQ8Zk2xn" width="300" height="348" frameborder="0" allowtransparency="true"></iframe>
+
+       <a name="pt_1">&nbsp;</a>
+    <div class="column clearfix first odd">
+     <div class="pt_1 pt-header"></div>
+      <iframe src="https://embed.spotify.com/?wmode=transparent&amp;uri=spotify:user:fcwmusic:playlist:2YiO5RgUJEU4tEXQ8Zk2xn"></iframe>
+         <div class="next-arrow"><a href="#pt_2">NEXT</a></div>
+    </div>
+
+       <a name="pt_2">&nbsp;</a>
+    <div class="column clearfix second even">
+     <div class="pt_2 pt-header"></div>
+      <iframe src="https://embed.spotify.com/?wmode=transparent&amp;uri=spotify:user:fcwmusic:playlist:0UU51VscR60YFm6mhzlBUT"></iframe>
+         <div class="next-arrow"><a href="#pt_3">NEXT</a></div>
+    </div>
+
+       <a name="pt_3">&nbsp;</a>
+    <div class="column clearfix third odd">
+         <div class="pt_3 pt-header"></div>
+      <iframe src="https://embed.spotify.com/?wmode=transparent&amp;uri=spotify:user:fcwmusic:playlist:0K48L1HiCnbQqm8HVCVBQr"></iframe>
+         <div class="next-arrow"><a href="#pt_4">NEXT</a></div>
+    </div>
+
+       <a name="pt_4">&nbsp;</a>
+    <div class="column clearfix first even">
+     <div class="pt_4 pt-header"></div>
+      <iframe src="https://embed.spotify.com/?wmode=transparent&amp;uri=spotify:user:fcwmusic:playlist:5ms5TnBV1dRUWUH7EbKeAM"></iframe>
+         <div class="next-arrow"><a href="#pt_5">NEXT</a></div>
+    </div>
+
+       <a name="pt_5">&nbsp;</a>
+    <div class="column clearfix second odd">
+     <div class="pt_5 pt-header"><a name="pt_5">&nbsp;</a></div>
+      <iframe src="https://embed.spotify.com/?wmode=transparent&amp;uri=spotify:user:fcwmusic:playlist:29RIdugGAI8dJO5i3AJug9"></iframe>
+         <div class="next-arrow"><a href="#pt_6">NEXT</a></div>
+    </div>
+
+       <a name="pt_6">&nbsp;</a>
+    <div class="column clearfix third even">
+     <div class="pt_6 pt-header"><a name="pt_6">&nbsp;</a></div>
+      <iframe src="https://embed.spotify.com/?wmode=transparent&amp;uri=spotify:user:fcwmusic:playlist:66Rf00P3LDWL4hDzs51Hiw"></iframe>
+         <div class="next-arrow"><a href="#pt_7">NEXT</a></div>
+    </div>
+
+       <a name="pt_7">&nbsp;</a>
+    <div class="column clearfix first odd">
+     <div class="pt_7 pt-header"><a name="pt_7">&nbsp;</a></div>
+      <iframe src="https://embed.spotify.com/?wmode=transparent&amp;uri=spotify:user:fcwmusic:playlist:72Lra3PeuOsU97t1RIF8ab"></iframe>
+         <div class="next-arrow"><a href="#pt_8">NEXT</a></div>
+    </div>
+
+       <a name="pt_8">&nbsp;</a>
+    <div class="column clearfix second even">
+     <div class="pt_8 pt-header"><a name="pt_8">&nbsp;</a></div>
+      <iframe src="https://embed.spotify.com/?wmode=transparent&amp;uri=spotify:user:fcwmusic:playlist:7DVVb8OvW8nrg389H6kMfR"></iframe>
+         <div class="next-arrow"><a href="#pt_9">NEXT</a></div>
+    </div>
+
+       <a name="pt_9">&nbsp;</a>
+    <div class="column clearfix third odd">
+     <div class="pt_9 pt-header"><a name="pt_9">&nbsp;</a></div>
+      <iframe src="https://embed.spotify.com/?wmode=transparent&amp;uri=spotify:user:fcwmusic:playlist:570smexwHGRiPSw3RdHnM9"></iframe>
+         <div class="next-arrow"><a href="#pt_10">NEXT</a></div>
+    </div>
+
+       <a name="pt_10">&nbsp;</a>
+    <div class="column clearfix first even">
+     <div class="pt_10 pt-header"><a name="pt_10">&nbsp;</a></div>
+      <iframe src="https://embed.spotify.com/?wmode=transparent&amp;uri=spotify:user:fcwmusic:playlist:4eyknsbPj1uEjbo0salVWV"></iframe>
+         <div class="next-arrow"><a href="#pt_11">NEXT</a></div>
+    </div>
+
+       <a name="pt_11">&nbsp;</a>
+    <div class="column clearfix second odd">
+     <div class="pt_11 pt-header"><a name="pt_11">&nbsp;</a></div>
+      <iframe src="https://embed.spotify.com/?wmode=transparent&amp;uri=spotify:user:fcwmusic:playlist:4SOxKip9hGyXliZoBokwhp"></iframe>
+         <div class="next-arrow"><a href="#pt_12">NEXT</a></div>
+    </div>
+
+       <a name="pt_12">&nbsp;</a>
+    <div class="column clearfix third even">
+     <div class="pt_12 pt-header"><a name="pt_12">&nbsp;</a></div>
+      <iframe src="https://embed.spotify.com/?wmode=transparent&amp;uri=spotify:user:fcwmusic:playlist:2zromrDzWLAcv2GvAKe0qo"></iframe>
+         <div class="next-arrow"><a href="#pt_13">NEXT</a></div>
+    </div>
+
+       <a name="pt_13">&nbsp;</a>
+    <div class="column clearfix first odd">
+     <div class="pt_13 pt-header"><a name="pt_13">&nbsp;</a></div>
+      <iframe src="https://embed.spotify.com/?wmode=transparent&amp;uri=spotify:user:fcwmusic:playlist:5H0jKMIzd42uCke4EE974R"></iframe>
+         <div class="next-arrow"><a href="#pt_14">NEXT</a></div>
+    </div>
+
+       <a name="pt_14">&nbsp;</a>
+    <div class="column clearfix second even">
+     <div class="pt_14 pt-header"><a name="pt_14">&nbsp;</a></div>
+      <iframe src="https://embed.spotify.com/?wmode=transparent&amp;uri=spotify:user:fcwmusic:playlist:60xv2DOrMDHCnV00FhgIdi"></iframe>
+         <div class="next-arrow"><a href="#pt_15">NEXT</a></div>
+    </div>
+
+       <a name="pt_15">&nbsp;</a>
+    <div class="column clearfix third odd">
+     <div class="pt_15 pt-header"><a name="pt_15">&nbsp;</a></div>
+      <iframe src="https://embed.spotify.com/?wmode=transparent&amp;uri=spotify:user:fcwmusic:playlist:72FVRwIAcpBPVo6soEp4TX"></iframe>
+         <div class="next-arrow"><a href="#pt_1">TOP</a></div>
     </div>
     
-    <div class="column clearfix">
-      <h4><div class="pt_2"></div></h4>
-      <iframe src="https://embed.spotify.com/?wmode=transparent&uri=spotify:user:fcwmusic:playlist:0UU51VscR60YFm6mhzlBUT" width="300" height="348" frameborder="0" allowtransparency="true"></iframe>
-    </div>
-    
-    <div class="column clearfix">
-      <h4><div class="pt_3"></div></h4>
-      <iframe src="https://embed.spotify.com/?wmode=transparent&uri=spotify:user:fcwmusic:playlist:0K48L1HiCnbQqm8HVCVBQr" width="300" height="348" frameborder="0" allowtransparency="true"></iframe>
-    </div>
-    
-    <div class="column clearfix">
-      <h4><div class="pt_4"></div></h4>
-      <iframe src="https://embed.spotify.com/?wmode=transparent&uri=spotify:user:fcwmusic:playlist:5ms5TnBV1dRUWUH7EbKeAM" width="300" height="348" frameborder="0" allowtransparency="true"></iframe>
-    </div>
-    
-    <div class="column clearfix">
-      <h4><div class="pt_5"></div></h4>
-      <iframe src="https://embed.spotify.com/?wmode=transparent&uri=spotify:user:fcwmusic:playlist:29RIdugGAI8dJO5i3AJug9" width="300" height="348" frameborder="0" allowtransparency="true"></iframe>
-    </div>
-    
-    <div class="column clearfix">
-      <h4><div class="pt_6"></div></h4>
-      <iframe src="https://embed.spotify.com/?wmode=transparent&uri=spotify:user:fcwmusic:playlist:66Rf00P3LDWL4hDzs51Hiw" width="300" height="348" frameborder="0" allowtransparency="true"></iframe>
-    </div>
-    
-    <div class="column clearfix">
-      <h4><div class="pt_7"></div></h4>
-      <iframe src="https://embed.spotify.com/?wmode=transparent&uri=spotify:user:fcwmusic:playlist:72Lra3PeuOsU97t1RIF8ab" width="300" height="348" frameborder="0" allowtransparency="true"></iframe>
-    </div>
-    
-    <div class="column clearfix">
-      <h4><div class="pt_8"></div></h4>
-      <iframe src="https://embed.spotify.com/?wmode=transparent&uri=spotify:user:fcwmusic:playlist:7DVVb8OvW8nrg389H6kMfR" width="300" height="348" frameborder="0" allowtransparency="true"></iframe>
-    </div>
-    
-    <div class="column clearfix">
-      <h4><div class="pt_9"></div></h4>
-      <iframe src="https://embed.spotify.com/?wmode=transparent&uri=spotify:user:fcwmusic:playlist:570smexwHGRiPSw3RdHnM9" width="300" height="348" frameborder="0" allowtransparency="true"></iframe>
-    </div>
-    
-    <div class="column clearfix">
-      <h4><div class="pt_10"></div></h4>
-      <iframe src="https://embed.spotify.com/?wmode=transparent&uri=spotify:user:fcwmusic:playlist:4eyknsbPj1uEjbo0salVWV" width="300" height="348" frameborder="0" allowtransparency="true"></iframe>
-    </div>
-    
-    <div class="column clearfix">
-      <h4><div class="pt_11"></div></h4>
-      <iframe src="https://embed.spotify.com/?wmode=transparent&uri=spotify:user:fcwmusic:playlist:4SOxKip9hGyXliZoBokwhp" width="300" height="348" frameborder="0" allowtransparency="true"></iframe>
-    </div>
-    
-    <div class="column clearfix">
-      <h4><div class="pt_12"></div></h4>
-      <iframe src="https://embed.spotify.com/?wmode=transparent&uri=spotify:user:fcwmusic:playlist:2zromrDzWLAcv2GvAKe0qo" width="300" height="348" frameborder="0" allowtransparency="true"></iframe>
-    </div>
-    
-    <div class="column clearfix">
-      <h4><div class="pt_13"></div></h4>
-      <iframe src="https://embed.spotify.com/?wmode=transparent&uri=spotify:user:fcwmusic:playlist:5H0jKMIzd42uCke4EE974R" width="300" height="348" frameborder="0" allowtransparency="true"></iframe>
-    </div>
-    
-    <div class="column clearfix">
-      <h4><div class="pt_14"></div></h4>
-      <iframe src="https://embed.spotify.com/?wmode=transparent&uri=spotify:user:fcwmusic:playlist:60xv2DOrMDHCnV00FhgIdi" width="300" height="348" frameborder="0" allowtransparency="true"></iframe>
-    </div>
-    
-    <div class="column clearfix">
-      <h4><div class="pt_15"></div></h4>
-      <iframe src="https://embed.spotify.com/?wmode=transparent&uri=spotify:user:fcwmusic:playlist:72FVRwIAcpBPVo6soEp4TX" width="300" height="348" frameborder="0" allowtransparency="true"></iframe>
-    </div>
-    
-    <div class="column clearfix">
-      <h4><div></div></h4>
-      
+    <div class="column clearfix first even last">
+     <div></div>
     </div>
     
   
@@ -129,7 +1424,7 @@
   
   <footer>
   
-      <div class="row" id="about">
+      <div class="row" id="about" style="clear: both">
          <h5>About</h5>
           <p>I received many gifts while I was going through cancer treatment. They were all amazing and helpful. What stands out to me more than anything is the music. The songs and playlists gifted to me became a integral part of making it through the day. Music is something you can always have close by. It can turn you around and slip itself around your soul to make everything ok, even if it's just for a moment. Looking back I'm not sure how I would have made it with out my music.<br>- Allison W. Gryphon, Breast Cancer Fighter</p><br>
           <p id="email">The Fighting Cancer with Music collaboration is intended to bring comfort, escape and relief to everyone fighting cancer and those supporting them. We intend to grow and evolve with our community so please share your stories and the songs that impacted you during treatment with us. <a href="mailto:fighter@fightingcancerwithmusic.com">fighter@fightingcancerwithmusic.com</a></p>
@@ -137,39 +1432,33 @@
       <div>
       		<div id="big-logos">
                <ul id="lower-logos">
-                   <li><a href="http://thewhyfoundation.org/" target="_new">
-                   <div class="responsive" id="lower-why"></div></a></li>
-                   <li><a href="http://theplaylistgeneration.com/" target="_new"><div class="responsive" id="lower-pgen"></div></a></li>
-                   <li><a href="http://safarisundays.com/"><div class="responsive" id="lower-safari"></div></a></li>
-                   <li><a href="#" target="_new"><div class="responsive" id="lower-cstar"></div></a></li>
-                   <li><a href=""><div class="responsive" id="lower-twitter"></div></a></li>
+                   <li><a href="http://thewhyfoundation.org/" target="_blank">
+                   <div class="responsive lower-why"><a name="responsive lower-why">&nbsp;</a></div></a></li>
+                   <li><a href="http://theplaylistgeneration.com/" target="_blank"><div class="responsive lower-pgen"></div></a></li>
+                   <li><a href="http://safarisundays.com/"><div class="responsive lower-safari"></div></a></li>
+                   <li><a href="#" target="_blank"><div class="responsive lower-cstar"></div></a></li>
+                   <li><a href=""><div class="responsive lower-twitter"></div></a></li>
                </ul>
            </div>
            <div id="sm-logos">
            <ul id="lower-logos-upper">
-               <li><a href="http://thewhyfoundation.org/" target="_new"><div class="responsive" id="lower-why"></div></a></li>
-               <li><a href="http://safarisundays.com/" target="_new"><div class="responsive" id="lower-safari"></div></a></li>
-               <li><a href=""><div class="responsive" id="lower-twitter"></a></div></li>
+               <li><a href="http://thewhyfoundation.org/" target="_blank"><div class="responsive lower-why"></div></a></li>
+               <li><a href="http://safarisundays.com/" target="_blank"><div class="responsive lower-safari"></div></a></li>
+               <li><a href=""><div class="responsive lower-twitter"></div></a></li>
            </ul>
            <ul id="lower-logos-lower">
-               <li><a href="http://theplaylistgeneration.com/" target="_new"><div class="responsive" id="lower-pgen"></div></a></li>
-               <li><a href=""><div class="responsive" id="lower-cstar"></div></a></li>
+               <li><a href="http://theplaylistgeneration.com/" target="_blank"><div class="responsive lower-pgen"></div></a></li>
+               <li><a href=""><div class="responsive lower-cstar"></div></a></li>
            </ul>
            </div>
       </div>
           
     </footer></div>
-  
-
-
-
-
-
-  
-
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
 <!--JS to set Videos Below Header-->
 <script>
+/*
 $("iframe").each(function(){
   var ifr_source = $(this).attr('src');
   var wmode = "wmode=transparent";
@@ -181,4 +1470,18 @@ $("iframe").each(function(){
   }
   else $(this).attr('src',ifr_source+'?'+wmode);
 });
-</script></body></html>
+*/
+function scrollTo(hash) {
+     // window.scrollBy(0, window.innerHeight);
+     // location.hash = "#" + hash;
+}
+$(document).ready(function() {
+     $('a[href^="#"]').click(function() {
+         target = $('.' + this.hash.substr(1) );
+          $('html, body').animate({ scrollTop: target.offset().top-40 }, 1000);
+          return false;
+     });
+});
+</script>
+</body>
+</html>
