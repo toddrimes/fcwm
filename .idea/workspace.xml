@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2b071dfe-e873-4980-b710-b570d88ef55f" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/style copy.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/safari images/Mobile /mobile_header-01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/safari images/Mobile /mobile_header.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/003f3ae50b1d837b418891b0baf6fd75df412126" afterPath="$PROJECT_DIR$/index_files/003f3ae50b1d837b418891b0baf6fd75df412126" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/040315_Twitter Header.png" afterPath="$PROJECT_DIR$/images/040315_Twitter Header.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/090ccd450e9600f6dd87e1441eff8554579ca2e1" afterPath="$PROJECT_DIR$/index_files/090ccd450e9600f6dd87e1441eff8554579ca2e1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/0934b95066fc3f86fd8afc6307af0ec61e89c9b6(1)" afterPath="$PROJECT_DIR$/index_files/0934b95066fc3f86fd8afc6307af0ec61e89c9b6(1)" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/0934b95066fc3f86fd8afc6307af0ec61e89c9b6" afterPath="$PROJECT_DIR$/index_files/0934b95066fc3f86fd8afc6307af0ec61e89c9b6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/16f5ff8f255a6503dda922f3c1610cb442130fe2(1)" afterPath="$PROJECT_DIR$/index_files/16f5ff8f255a6503dda922f3c1610cb442130fe2(1)" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/16f5ff8f255a6503dda922f3c1610cb442130fe2" afterPath="$PROJECT_DIR$/index_files/16f5ff8f255a6503dda922f3c1610cb442130fe2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/1b0243d40283611bdecf280cb6142307fe97c606" afterPath="$PROJECT_DIR$/index_files/1b0243d40283611bdecf280cb6142307fe97c606" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/28b22548d69e4f381b65f74dda078c2336478924" afterPath="$PROJECT_DIR$/index_files/28b22548d69e4f381b65f74dda078c2336478924" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/37598243558c95f4253fa80ec5284aa15bc72937(1)" afterPath="$PROJECT_DIR$/index_files/37598243558c95f4253fa80ec5284aa15bc72937(1)" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/37598243558c95f4253fa80ec5284aa15bc72937" afterPath="$PROJECT_DIR$/index_files/37598243558c95f4253fa80ec5284aa15bc72937" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/43643cec2d754680ee2af9ef65fbd3754e0e33a9(1)" afterPath="$PROJECT_DIR$/index_files/43643cec2d754680ee2af9ef65fbd3754e0e33a9(1)" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/43643cec2d754680ee2af9ef65fbd3754e0e33a9" afterPath="$PROJECT_DIR$/index_files/43643cec2d754680ee2af9ef65fbd3754e0e33a9" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/43b51bb3cad7368e56bad1bd9fe673273c24a7be" afterPath="$PROJECT_DIR$/index_files/43b51bb3cad7368e56bad1bd9fe673273c24a7be" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/49fe426af072b415f60a1c3565fe17b365c8df09" afterPath="$PROJECT_DIR$/index_files/49fe426af072b415f60a1c3565fe17b365c8df09" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/4f2aeb5cbb3cbbd7b675303196e8aeb85be3d329(1)" afterPath="$PROJECT_DIR$/index_files/4f2aeb5cbb3cbbd7b675303196e8aeb85be3d329(1)" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/4f2aeb5cbb3cbbd7b675303196e8aeb85be3d329" afterPath="$PROJECT_DIR$/index_files/4f2aeb5cbb3cbbd7b675303196e8aeb85be3d329" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/601cae92a8af4f54708735ce524bf07bdaaaadfd" afterPath="$PROJECT_DIR$/index_files/601cae92a8af4f54708735ce524bf07bdaaaadfd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/6b2eea62c1a6f986824e25ff4e0f072c515a9988(1)" afterPath="$PROJECT_DIR$/index_files/6b2eea62c1a6f986824e25ff4e0f072c515a9988(1)" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/6b2eea62c1a6f986824e25ff4e0f072c515a9988" afterPath="$PROJECT_DIR$/index_files/6b2eea62c1a6f986824e25ff4e0f072c515a9988" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/7eb5366b71f2a1987cbabbae5b2525c974503c21(1)" afterPath="$PROJECT_DIR$/index_files/7eb5366b71f2a1987cbabbae5b2525c974503c21(1)" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/7eb5366b71f2a1987cbabbae5b2525c974503c21" afterPath="$PROJECT_DIR$/index_files/7eb5366b71f2a1987cbabbae5b2525c974503c21" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/84bdbd976b0a3a6b9d423f69c3e23915aa380f78" afterPath="$PROJECT_DIR$/index_files/84bdbd976b0a3a6b9d423f69c3e23915aa380f78" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/PNGS/Blog Header.png" afterPath="$PROJECT_DIR$/safari images/PNGS/Blog Header.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/Blue_Steve_WTF.jpg" afterPath="$PROJECT_DIR$/images/Blue_Steve_WTF.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ElO5sxsX.jpeg" afterPath="$PROJECT_DIR$/images/ElO5sxsX.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/logos/IMG_0149[4].jpeg" afterPath="$PROJECT_DIR$/safari images/logos/IMG_0149[4].jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/PNGS/RequestedFiles_030215-04.png" afterPath="$PROJECT_DIR$/safari images/PNGS/RequestedFiles_030215-04.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/PNGS/RequestedFiles_030215_Artboard 6.png" afterPath="$PROJECT_DIR$/safari images/PNGS/RequestedFiles_030215_Artboard 6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/Shadows-Black.png" afterPath="$PROJECT_DIR$/index_files/Shadows-Black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/PNGS/Side Banner.png" afterPath="$PROJECT_DIR$/safari images/PNGS/Side Banner.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/PNGS/Side Banner.psd" afterPath="$PROJECT_DIR$/safari images/PNGS/Side Banner.psd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/PNGS/Side-Banner.png" afterPath="$PROJECT_DIR$/safari images/PNGS/Side-Banner.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/PNGS/Side-donate-button.png" afterPath="$PROJECT_DIR$/safari images/PNGS/Side-donate-button.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/PNGS/Side-donate-button.psd" afterPath="$PROJECT_DIR$/safari images/PNGS/Side-donate-button.psd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/Spotify-Play-Button-Gotye-Playlist copy.png" afterPath="$PROJECT_DIR$/images/Spotify-Play-Button-Gotye-Playlist copy.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/Spotify-Play-Button-Gotye-Playlist.png" afterPath="$PROJECT_DIR$/images/Spotify-Play-Button-Gotye-Playlist.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/TPG_Logo_Text.jpg" afterPath="$PROJECT_DIR$/images/TPG_Logo_Text.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/logos/TPG_Logo_Text[2].jpg" afterPath="$PROJECT_DIR$/safari images/logos/TPG_Logo_Text[2].jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/logos/TPG_Logo_Text[2].png" afterPath="$PROJECT_DIR$/safari images/logos/TPG_Logo_Text[2].png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/youtube placeholder/WHY_cstarPR.psd" afterPath="$PROJECT_DIR$/safari images/youtube placeholder/WHY_cstarPR.psd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/youtube placeholder/WHY_cstarPR[2].jpg" afterPath="$PROJECT_DIR$/safari images/youtube placeholder/WHY_cstarPR[2].jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/WHY_facebook_nologo.jpg" afterPath="$PROJECT_DIR$/images/WHY_facebook_nologo.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/WHY_facebook_nologo.jpg" afterPath="$PROJECT_DIR$/index_files/WHY_facebook_nologo.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/bbf1aafab0133d0dd5f8706fc69637c549897dcc(1)" afterPath="$PROJECT_DIR$/index_files/bbf1aafab0133d0dd5f8706fc69637c549897dcc(1)" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/bbf1aafab0133d0dd5f8706fc69637c549897dcc" afterPath="$PROJECT_DIR$/index_files/bbf1aafab0133d0dd5f8706fc69637c549897dcc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/bfcba0de791c1464f5d3e2372e85b4eed1f7f1cf(1)" afterPath="$PROJECT_DIR$/index_files/bfcba0de791c1464f5d3e2372e85b4eed1f7f1cf(1)" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/bfcba0de791c1464f5d3e2372e85b4eed1f7f1cf" afterPath="$PROJECT_DIR$/index_files/bfcba0de791c1464f5d3e2372e85b4eed1f7f1cf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/c175c159741a2c5718416a32b8f2fd3f46e0735c(1)" afterPath="$PROJECT_DIR$/index_files/c175c159741a2c5718416a32b8f2fd3f46e0735c(1)" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/c175c159741a2c5718416a32b8f2fd3f46e0735c" afterPath="$PROJECT_DIR$/index_files/c175c159741a2c5718416a32b8f2fd3f46e0735c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/c3e6d697cde0e29adf75cfacd021366fada496a5" afterPath="$PROJECT_DIR$/index_files/c3e6d697cde0e29adf75cfacd021366fada496a5" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/ccfa4ba15970ede67ed434f37a0fcbeaba49ac1c" afterPath="$PROJECT_DIR$/index_files/ccfa4ba15970ede67ed434f37a0fcbeaba49ac1c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/comingsoon.jpg" afterPath="$PROJECT_DIR$/images/comingsoon.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/cstarpr.psd" afterPath="$PROJECT_DIR$/images/cstarpr.psd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/cstarpr2.png" afterPath="$PROJECT_DIR$/index_files/cstarpr2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/logos/cstarpr2.png" afterPath="$PROJECT_DIR$/safari images/logos/cstarpr2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/d3ed6fbd6b76e65a31536c0de87713c4a624d2ff" afterPath="$PROJECT_DIR$/index_files/d3ed6fbd6b76e65a31536c0de87713c4a624d2ff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/d6549165a65b885e18a160aa7d7b6b6bba4a38e4" afterPath="$PROJECT_DIR$/index_files/d6549165a65b885e18a160aa7d7b6b6bba4a38e4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/dd9e9136cca397473c206f24509556c72cfd45a3(1)" afterPath="$PROJECT_DIR$/index_files/dd9e9136cca397473c206f24509556c72cfd45a3(1)" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/dd9e9136cca397473c206f24509556c72cfd45a3" afterPath="$PROJECT_DIR$/index_files/dd9e9136cca397473c206f24509556c72cfd45a3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/defaultCoverL.png" afterPath="$PROJECT_DIR$/index_files/defaultCoverL.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/PNGS/donate.png" afterPath="$PROJECT_DIR$/safari images/PNGS/donate.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/e1a7289766848a5245e552069f5ccdb75582a8f6" afterPath="$PROJECT_DIR$/index_files/e1a7289766848a5245e552069f5ccdb75582a8f6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/e8640b3d59bf8a5a997d2124f43f323016b96546(1)" afterPath="$PROJECT_DIR$/index_files/e8640b3d59bf8a5a997d2124f43f323016b96546(1)" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/e8640b3d59bf8a5a997d2124f43f323016b96546" afterPath="$PROJECT_DIR$/index_files/e8640b3d59bf8a5a997d2124f43f323016b96546" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/eebe31ba91e47d2335502923b7ef1bea259fa4f2(1)" afterPath="$PROJECT_DIR$/index_files/eebe31ba91e47d2335502923b7ef1bea259fa4f2(1)" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/eebe31ba91e47d2335502923b7ef1bea259fa4f2" afterPath="$PROJECT_DIR$/index_files/eebe31ba91e47d2335502923b7ef1bea259fa4f2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/eefcc80d60ee2dfd9d95d142a1dd19527c1ad130" afterPath="$PROJECT_DIR$/index_files/eefcc80d60ee2dfd9d95d142a1dd19527c1ad130" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/f1f92faede0e1122a0b1257f90e1fc3a9d4c97e2(1)" afterPath="$PROJECT_DIR$/index_files/f1f92faede0e1122a0b1257f90e1fc3a9d4c97e2(1)" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/f1f92faede0e1122a0b1257f90e1fc3a9d4c97e2" afterPath="$PROJECT_DIR$/index_files/f1f92faede0e1122a0b1257f90e1fc3a9d4c97e2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/fightingcancerwithmusic.png" afterPath="$PROJECT_DIR$/images/fightingcancerwithmusic.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/fightingcancerwmusic.jpg" afterPath="$PROJECT_DIR$/images/fightingcancerwmusic.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/fightingcancerwmusic2.jpg" afterPath="$PROJECT_DIR$/images/fightingcancerwmusic2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/header/header-01-resized.jpg" afterPath="$PROJECT_DIR$/safari images/header/header-01-resized.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/header/header-01.jpg" afterPath="$PROJECT_DIR$/safari images/header/header-01.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/header/header-01.png" afterPath="$PROJECT_DIR$/safari images/header/header-01.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/header/header.jpg" afterPath="$PROJECT_DIR$/safari images/header/header.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/header/header_new.jpg" afterPath="$PROJECT_DIR$/safari images/header/header_new.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/youtube placeholder/headphones.jpg" afterPath="$PROJECT_DIR$/safari images/youtube placeholder/headphones.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/line break.png" afterPath="$PROJECT_DIR$/index_files/line break.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/line break/line break.png" afterPath="$PROJECT_DIR$/safari images/line break/line break.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/logo.png" afterPath="$PROJECT_DIR$/images/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/med_cstarpr_logo.png" afterPath="$PROJECT_DIR$/cuts/med_cstarpr_logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/med_fcwm_logo.png" afterPath="$PROJECT_DIR$/cuts/med_fcwm_logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/med_lower_1whylogo.png" afterPath="$PROJECT_DIR$/cuts/med_lower_1whylogo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/med_lower_2pgen.png" afterPath="$PROJECT_DIR$/cuts/med_lower_2pgen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/med_lower_3safari.png" afterPath="$PROJECT_DIR$/cuts/med_lower_3safari.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/med_lower_4cstar.png" afterPath="$PROJECT_DIR$/cuts/med_lower_4cstar.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/med_lower_5twitter.png" afterPath="$PROJECT_DIR$/cuts/med_lower_5twitter.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/med_playlistgen_logo.png" afterPath="$PROJECT_DIR$/cuts/med_playlistgen_logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/med_pt_10chemoday1.png" afterPath="$PROJECT_DIR$/cuts/med_pt_10chemoday1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/med_pt_11chemodaily.png" afterPath="$PROJECT_DIR$/cuts/med_pt_11chemodaily.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/med_pt_12radiation.png" afterPath="$PROJECT_DIR$/cuts/med_pt_12radiation.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/med_pt_13followups.png" afterPath="$PROJECT_DIR$/cuts/med_pt_13followups.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/med_pt_14caregivers.png" afterPath="$PROJECT_DIR$/cuts/med_pt_14caregivers.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/med_pt_15favorites.png" afterPath="$PROJECT_DIR$/cuts/med_pt_15favorites.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/med_pt_1thediagnosis.png" afterPath="$PROJECT_DIR$/cuts/med_pt_1thediagnosis.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/med_pt_2preop.png" afterPath="$PROJECT_DIR$/cuts/med_pt_2preop.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/med_pt_3recovery.png" afterPath="$PROJECT_DIR$/cuts/med_pt_3recovery.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/med_pt_4shaving.png" afterPath="$PROJECT_DIR$/cuts/med_pt_4shaving.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/med_pt_5gettingout.png" afterPath="$PROJECT_DIR$/cuts/med_pt_5gettingout.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/med_pt_6beingunderstood.png" afterPath="$PROJECT_DIR$/cuts/med_pt_6beingunderstood.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/med_pt_7celebration.png" afterPath="$PROJECT_DIR$/cuts/med_pt_7celebration.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/med_pt_8bodyscans.png" afterPath="$PROJECT_DIR$/cuts/med_pt_8bodyscans.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/med_pt_9postop.png" afterPath="$PROJECT_DIR$/cuts/med_pt_9postop.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/med_video_fpo.png" afterPath="$PROJECT_DIR$/cuts/med_video_fpo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/med_why_logo.png" afterPath="$PROJECT_DIR$/cuts/med_why_logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/header/mobile_header-01.jpg" afterPath="$PROJECT_DIR$/safari images/header/mobile_header-01.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/mobileimg/mobile_header-01.png" afterPath="$PROJECT_DIR$/safari images/mobileimg/mobile_header-01.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/mobileimg/mobile_header.jpg" afterPath="$PROJECT_DIR$/safari images/mobileimg/mobile_header.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/header/mobile_header.png" afterPath="$PROJECT_DIR$/safari images/header/mobile_header.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/playlist-cover.jpg" afterPath="$PROJECT_DIR$/safari images/playlist-cover.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/playlist-cover.psd" afterPath="$PROJECT_DIR$/safari images/playlist-cover.psd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/playlist titles/playlist_titles-01.png" afterPath="$PROJECT_DIR$/safari images/playlist titles/playlist_titles-01.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/playlist_titles-02.png" afterPath="$PROJECT_DIR$/index_files/playlist_titles-02.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/playlist titles 2/playlist_titles-02.png" afterPath="$PROJECT_DIR$/safari images/playlist titles 2/playlist_titles-02.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/playlist titles/playlist_titles-02.png" afterPath="$PROJECT_DIR$/safari images/playlist titles/playlist_titles-02.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/playlist_titles-03.png" afterPath="$PROJECT_DIR$/index_files/playlist_titles-03.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/playlist titles 2/playlist_titles-03.png" afterPath="$PROJECT_DIR$/safari images/playlist titles 2/playlist_titles-03.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/playlist titles/playlist_titles-03.png" afterPath="$PROJECT_DIR$/safari images/playlist titles/playlist_titles-03.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/playlist_titles-04.png" afterPath="$PROJECT_DIR$/index_files/playlist_titles-04.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/playlist titles 2/playlist_titles-04.png" afterPath="$PROJECT_DIR$/safari images/playlist titles 2/playlist_titles-04.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/playlist titles/playlist_titles-04.png" afterPath="$PROJECT_DIR$/safari images/playlist titles/playlist_titles-04.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/playlist_titles-05.png" afterPath="$PROJECT_DIR$/index_files/playlist_titles-05.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/playlist titles 2/playlist_titles-05.png" afterPath="$PROJECT_DIR$/safari images/playlist titles 2/playlist_titles-05.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/playlist titles/playlist_titles-05.png" afterPath="$PROJECT_DIR$/safari images/playlist titles/playlist_titles-05.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/playlist_titles-06.png" afterPath="$PROJECT_DIR$/index_files/playlist_titles-06.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/playlist titles 2/playlist_titles-06.png" afterPath="$PROJECT_DIR$/safari images/playlist titles 2/playlist_titles-06.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/playlist titles/playlist_titles-06.png" afterPath="$PROJECT_DIR$/safari images/playlist titles/playlist_titles-06.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/playlist_titles-07.png" afterPath="$PROJECT_DIR$/index_files/playlist_titles-07.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/playlist titles 2/playlist_titles-07.png" afterPath="$PROJECT_DIR$/safari images/playlist titles 2/playlist_titles-07.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/playlist titles/playlist_titles-07.png" afterPath="$PROJECT_DIR$/safari images/playlist titles/playlist_titles-07.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/playlist_titles-08.png" afterPath="$PROJECT_DIR$/index_files/playlist_titles-08.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/playlist titles 2/playlist_titles-08.png" afterPath="$PROJECT_DIR$/safari images/playlist titles 2/playlist_titles-08.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/playlist titles/playlist_titles-08.png" afterPath="$PROJECT_DIR$/safari images/playlist titles/playlist_titles-08.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/playlist_titles-09.png" afterPath="$PROJECT_DIR$/index_files/playlist_titles-09.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/playlist titles 2/playlist_titles-09.png" afterPath="$PROJECT_DIR$/safari images/playlist titles 2/playlist_titles-09.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/playlist titles/playlist_titles-09.png" afterPath="$PROJECT_DIR$/safari images/playlist titles/playlist_titles-09.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/playlist_titles-10.png" afterPath="$PROJECT_DIR$/index_files/playlist_titles-10.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/playlist titles 2/playlist_titles-10.png" afterPath="$PROJECT_DIR$/safari images/playlist titles 2/playlist_titles-10.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/playlist titles/playlist_titles-10.png" afterPath="$PROJECT_DIR$/safari images/playlist titles/playlist_titles-10.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/playlist_titles-11.png" afterPath="$PROJECT_DIR$/index_files/playlist_titles-11.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/playlist titles 2/playlist_titles-11.png" afterPath="$PROJECT_DIR$/safari images/playlist titles 2/playlist_titles-11.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/playlist titles/playlist_titles-11.png" afterPath="$PROJECT_DIR$/safari images/playlist titles/playlist_titles-11.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/playlist_titles-12.png" afterPath="$PROJECT_DIR$/index_files/playlist_titles-12.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/playlist titles 2/playlist_titles-12.png" afterPath="$PROJECT_DIR$/safari images/playlist titles 2/playlist_titles-12.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/playlist titles/playlist_titles-12.png" afterPath="$PROJECT_DIR$/safari images/playlist titles/playlist_titles-12.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/playlist_titles-13.png" afterPath="$PROJECT_DIR$/index_files/playlist_titles-13.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/playlist titles 2/playlist_titles-13.png" afterPath="$PROJECT_DIR$/safari images/playlist titles 2/playlist_titles-13.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/playlist titles/playlist_titles-13.png" afterPath="$PROJECT_DIR$/safari images/playlist titles/playlist_titles-13.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/playlist_titles-14.png" afterPath="$PROJECT_DIR$/index_files/playlist_titles-14.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/playlist titles 2/playlist_titles-14.png" afterPath="$PROJECT_DIR$/safari images/playlist titles 2/playlist_titles-14.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/playlist titles/playlist_titles-14.png" afterPath="$PROJECT_DIR$/safari images/playlist titles/playlist_titles-14.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/playlists_titles-01.png" afterPath="$PROJECT_DIR$/index_files/playlists_titles-01.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/playlist titles 2/playlists_titles-01.png" afterPath="$PROJECT_DIR$/safari images/playlist titles 2/playlists_titles-01.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/logos/safari_new.png" afterPath="$PROJECT_DIR$/safari images/logos/safari_new.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/safari_sundays copy.png" afterPath="$PROJECT_DIR$/index_files/safari_sundays copy.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/logos/safari_sundays copy.png" afterPath="$PROJECT_DIR$/safari images/logos/safari_sundays copy.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/logos/safari_sundays.png" afterPath="$PROJECT_DIR$/safari images/logos/safari_sundays.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/sigimg0.png" afterPath="$PROJECT_DIR$/images/sigimg0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/sm_cstarpr_logo.png" afterPath="$PROJECT_DIR$/cuts/sm_cstarpr_logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/sm_fcwm_logo.png" afterPath="$PROJECT_DIR$/cuts/sm_fcwm_logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/sm_lower_1whylogo.png" afterPath="$PROJECT_DIR$/cuts/sm_lower_1whylogo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/sm_lower_2pgen.png" afterPath="$PROJECT_DIR$/cuts/sm_lower_2pgen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/sm_lower_3safari.png" afterPath="$PROJECT_DIR$/cuts/sm_lower_3safari.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/sm_lower_4cstar.png" afterPath="$PROJECT_DIR$/cuts/sm_lower_4cstar.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/sm_lower_5twitter.png" afterPath="$PROJECT_DIR$/cuts/sm_lower_5twitter.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/sm_playlistgen_logo.png" afterPath="$PROJECT_DIR$/cuts/sm_playlistgen_logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/sm_pt_10chemoday1.png" afterPath="$PROJECT_DIR$/cuts/sm_pt_10chemoday1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/sm_pt_11chemodaily.png" afterPath="$PROJECT_DIR$/cuts/sm_pt_11chemodaily.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/sm_pt_12radiation.png" afterPath="$PROJECT_DIR$/cuts/sm_pt_12radiation.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/sm_pt_13followups.png" afterPath="$PROJECT_DIR$/cuts/sm_pt_13followups.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/sm_pt_14caregivers.png" afterPath="$PROJECT_DIR$/cuts/sm_pt_14caregivers.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/sm_pt_15favorites.png" afterPath="$PROJECT_DIR$/cuts/sm_pt_15favorites.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/sm_pt_1thediagnosis.png" afterPath="$PROJECT_DIR$/cuts/sm_pt_1thediagnosis.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/sm_pt_2preop.png" afterPath="$PROJECT_DIR$/cuts/sm_pt_2preop.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/sm_pt_3recovery.png" afterPath="$PROJECT_DIR$/cuts/sm_pt_3recovery.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/sm_pt_4shaving.png" afterPath="$PROJECT_DIR$/cuts/sm_pt_4shaving.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/sm_pt_5gettingout.png" afterPath="$PROJECT_DIR$/cuts/sm_pt_5gettingout.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/sm_pt_6beingunderstood.png" afterPath="$PROJECT_DIR$/cuts/sm_pt_6beingunderstood.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/sm_pt_7celebration.png" afterPath="$PROJECT_DIR$/cuts/sm_pt_7celebration.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/sm_pt_8bodyscans.png" afterPath="$PROJECT_DIR$/cuts/sm_pt_8bodyscans.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/sm_pt_9postop.png" afterPath="$PROJECT_DIR$/cuts/sm_pt_9postop.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/sm_video_fpo.png" afterPath="$PROJECT_DIR$/cuts/sm_video_fpo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/sm_why_logo.png" afterPath="$PROJECT_DIR$/cuts/sm_why_logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/spotify-logo-primary-horizontal-light-background-cmyk.eps" afterPath="$PROJECT_DIR$/images/spotify-logo-primary-horizontal-light-background-cmyk.eps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/spotify-logo-primary-horizontal-light-background-cmyk.pdf" afterPath="$PROJECT_DIR$/images/spotify-logo-primary-horizontal-light-background-cmyk.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/logos/spotify-logo-vertical-flat-light-background-cmyk.eps" afterPath="$PROJECT_DIR$/safari images/logos/spotify-logo-vertical-flat-light-background-cmyk.eps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/spotify.jpg" afterPath="$PROJECT_DIR$/index_files/spotify.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/logos/spotify.jpg" afterPath="$PROJECT_DIR$/safari images/logos/spotify.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/logos/spotifylogo.png" afterPath="$PROJECT_DIR$/safari images/logos/spotifylogo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/PNGS/sprites.png" afterPath="$PROJECT_DIR$/safari images/PNGS/sprites.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/sprites/sprites.png" afterPath="$PROJECT_DIR$/safari images/sprites/sprites.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/sprites/sprites.psd" afterPath="$PROJECT_DIR$/safari images/sprites/sprites.psd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/sprites/sprites2.png" afterPath="$PROJECT_DIR$/safari images/sprites/sprites2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/tpg_logo_transparent.png" afterPath="$PROJECT_DIR$/images/tpg_logo_transparent.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/tpg_logo_transparent.psd" afterPath="$PROJECT_DIR$/images/tpg_logo_transparent.psd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/tpg_logo_transparent_white.png" afterPath="$PROJECT_DIR$/images/tpg_logo_transparent_white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/tpg_logo_transparent_white.png" afterPath="$PROJECT_DIR$/index_files/tpg_logo_transparent_white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/logos/tpg_logo_transparent_white.png" afterPath="$PROJECT_DIR$/safari images/logos/tpg_logo_transparent_white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/PNGS/tumblrbest.png" afterPath="$PROJECT_DIR$/safari images/PNGS/tumblrbest.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/PNGS/twitterbest.png" afterPath="$PROJECT_DIR$/safari images/PNGS/twitterbest.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/video placeholder.jpg" afterPath="$PROJECT_DIR$/images/video placeholder.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/video placeholder.psd" afterPath="$PROJECT_DIR$/images/video placeholder.psd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/why.png" afterPath="$PROJECT_DIR$/images/why.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/why_logo_blue.png" afterPath="$PROJECT_DIR$/images/why_logo_blue.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/why_transparent.png" afterPath="$PROJECT_DIR$/images/why_transparent.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/why_transparent.png" afterPath="$PROJECT_DIR$/index_files/why_transparent.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/logos/why_transparent.png" afterPath="$PROJECT_DIR$/safari images/logos/why_transparent.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/why_white.png" afterPath="$PROJECT_DIR$/images/why_white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/wide_cstarpr_logo.png" afterPath="$PROJECT_DIR$/cuts/wide_cstarpr_logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/wide_fcwm_logo.png" afterPath="$PROJECT_DIR$/cuts/wide_fcwm_logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/wide_lower_1whylogo.png" afterPath="$PROJECT_DIR$/cuts/wide_lower_1whylogo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/wide_lower_2pgen.png" afterPath="$PROJECT_DIR$/cuts/wide_lower_2pgen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/wide_lower_3safari.png" afterPath="$PROJECT_DIR$/cuts/wide_lower_3safari.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/wide_lower_4cstar.png" afterPath="$PROJECT_DIR$/cuts/wide_lower_4cstar.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/wide_lower_5twitter.png" afterPath="$PROJECT_DIR$/cuts/wide_lower_5twitter.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/wide_playlistgen_logo.png" afterPath="$PROJECT_DIR$/cuts/wide_playlistgen_logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/wide_pt_10chemoday1.png" afterPath="$PROJECT_DIR$/cuts/wide_pt_10chemoday1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/wide_pt_11chemodaily.png" afterPath="$PROJECT_DIR$/cuts/wide_pt_11chemodaily.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/wide_pt_12radiation.png" afterPath="$PROJECT_DIR$/cuts/wide_pt_12radiation.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/wide_pt_13followups.png" afterPath="$PROJECT_DIR$/cuts/wide_pt_13followups.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/wide_pt_14caregivers.png" afterPath="$PROJECT_DIR$/cuts/wide_pt_14caregivers.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/wide_pt_15favorites.png" afterPath="$PROJECT_DIR$/cuts/wide_pt_15favorites.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/wide_pt_1thediagnosis.png" afterPath="$PROJECT_DIR$/cuts/wide_pt_1thediagnosis.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/wide_pt_2preop.png" afterPath="$PROJECT_DIR$/cuts/wide_pt_2preop.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/wide_pt_3recovery.png" afterPath="$PROJECT_DIR$/cuts/wide_pt_3recovery.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/wide_pt_4shaving.png" afterPath="$PROJECT_DIR$/cuts/wide_pt_4shaving.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/wide_pt_5gettingout.png" afterPath="$PROJECT_DIR$/cuts/wide_pt_5gettingout.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/wide_pt_6beingunderstood.png" afterPath="$PROJECT_DIR$/cuts/wide_pt_6beingunderstood.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/wide_pt_7celebration.png" afterPath="$PROJECT_DIR$/cuts/wide_pt_7celebration.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/wide_pt_8bodyscans.png" afterPath="$PROJECT_DIR$/cuts/wide_pt_8bodyscans.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/wide_pt_9postop.png" afterPath="$PROJECT_DIR$/cuts/wide_pt_9postop.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/wide_video_fpo.png" afterPath="$PROJECT_DIR$/cuts/wide_video_fpo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/wide_why_logo.png" afterPath="$PROJECT_DIR$/cuts/wide_why_logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/playlist titles 2/your favorite songs.png" afterPath="$PROJECT_DIR$/safari images/playlist titles 2/your favorite songs.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/safari images/youtube placeholder/youtube.png" afterPath="$PROJECT_DIR$/safari images/youtube placeholder/youtube.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foundation-5.2.3/img/.gitkeep" afterPath="$PROJECT_DIR$/foundation-5.2.3/img/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/1ldYU13brY_(1).html" afterPath="$PROJECT_DIR$/index_files/1ldYU13brY_(1).html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/1ldYU13brY_(10).html" afterPath="$PROJECT_DIR$/index_files/1ldYU13brY_(10).html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/1ldYU13brY_(11).html" afterPath="$PROJECT_DIR$/index_files/1ldYU13brY_(11).html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/1ldYU13brY_(12).html" afterPath="$PROJECT_DIR$/index_files/1ldYU13brY_(12).html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/1ldYU13brY_(13).html" afterPath="$PROJECT_DIR$/index_files/1ldYU13brY_(13).html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/1ldYU13brY_(2).html" afterPath="$PROJECT_DIR$/index_files/1ldYU13brY_(2).html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/1ldYU13brY_(3).html" afterPath="$PROJECT_DIR$/index_files/1ldYU13brY_(3).html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/1ldYU13brY_(4).html" afterPath="$PROJECT_DIR$/index_files/1ldYU13brY_(4).html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/1ldYU13brY_(5).html" afterPath="$PROJECT_DIR$/index_files/1ldYU13brY_(5).html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/1ldYU13brY_(6).html" afterPath="$PROJECT_DIR$/index_files/1ldYU13brY_(6).html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/1ldYU13brY_(7).html" afterPath="$PROJECT_DIR$/index_files/1ldYU13brY_(7).html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/1ldYU13brY_(8).html" afterPath="$PROJECT_DIR$/index_files/1ldYU13brY_(8).html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/1ldYU13brY_(9).html" afterPath="$PROJECT_DIR$/index_files/1ldYU13brY_(9).html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/1ldYU13brY_.html" afterPath="$PROJECT_DIR$/index_files/1ldYU13brY_.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/all.js" afterPath="$PROJECT_DIR$/index_files/all.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/analytics.js" afterPath="$PROJECT_DIR$/index_files/analytics.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/css" afterPath="$PROJECT_DIR$/index_files/css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/dc.js" afterPath="$PROJECT_DIR$/index_files/dc.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foundation-5.2.3/js/vendor/fastclick.js" afterPath="$PROJECT_DIR$/foundation-5.2.3/js/vendor/fastclick.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foundation-5.2.3/js/foundation/foundation.abide.js" afterPath="$PROJECT_DIR$/foundation-5.2.3/js/foundation/foundation.abide.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foundation-5.2.3/js/foundation/foundation.accordion.js" afterPath="$PROJECT_DIR$/foundation-5.2.3/js/foundation/foundation.accordion.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foundation-5.2.3/js/foundation/foundation.alert.js" afterPath="$PROJECT_DIR$/foundation-5.2.3/js/foundation/foundation.alert.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foundation-5.2.3/js/foundation/foundation.clearing.js" afterPath="$PROJECT_DIR$/foundation-5.2.3/js/foundation/foundation.clearing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/foundation.css" afterPath="$PROJECT_DIR$/css/foundation.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foundation-5.2.3/css/foundation.css" afterPath="$PROJECT_DIR$/foundation-5.2.3/css/foundation.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foundation-5.2.3/js/foundation/foundation.dropdown.js" afterPath="$PROJECT_DIR$/foundation-5.2.3/js/foundation/foundation.dropdown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foundation-5.2.3/js/foundation/foundation.equalizer.js" afterPath="$PROJECT_DIR$/foundation-5.2.3/js/foundation/foundation.equalizer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foundation-5.2.3/js/foundation/foundation.interchange.js" afterPath="$PROJECT_DIR$/foundation-5.2.3/js/foundation/foundation.interchange.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foundation-5.2.3/js/foundation/foundation.joyride.js" afterPath="$PROJECT_DIR$/foundation-5.2.3/js/foundation/foundation.joyride.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foundation-5.2.3/js/foundation/foundation.js" afterPath="$PROJECT_DIR$/foundation-5.2.3/js/foundation/foundation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foundation-5.2.3/js/foundation/foundation.magellan.js" afterPath="$PROJECT_DIR$/foundation-5.2.3/js/foundation/foundation.magellan.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/foundation.min.css" afterPath="$PROJECT_DIR$/css/foundation.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foundation-5.2.3/css/foundation.min.css" afterPath="$PROJECT_DIR$/foundation-5.2.3/css/foundation.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foundation-5.2.3/js/foundation.min.js" afterPath="$PROJECT_DIR$/foundation-5.2.3/js/foundation.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foundation-5.2.3/js/foundation/foundation.offcanvas.js" afterPath="$PROJECT_DIR$/foundation-5.2.3/js/foundation/foundation.offcanvas.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foundation-5.2.3/js/foundation/foundation.orbit.js" afterPath="$PROJECT_DIR$/foundation-5.2.3/js/foundation/foundation.orbit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foundation-5.2.3/js/foundation/foundation.reveal.js" afterPath="$PROJECT_DIR$/foundation-5.2.3/js/foundation/foundation.reveal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foundation-5.2.3/js/foundation/foundation.slider.js" afterPath="$PROJECT_DIR$/foundation-5.2.3/js/foundation/foundation.slider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foundation-5.2.3/js/foundation/foundation.tab.js" afterPath="$PROJECT_DIR$/foundation-5.2.3/js/foundation/foundation.tab.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foundation-5.2.3/js/foundation/foundation.tooltip.js" afterPath="$PROJECT_DIR$/foundation-5.2.3/js/foundation/foundation.tooltip.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foundation-5.2.3/js/foundation/foundation.topbar.js" afterPath="$PROJECT_DIR$/foundation-5.2.3/js/foundation/foundation.topbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/gtm.js" afterPath="$PROJECT_DIR$/index_files/gtm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foundation-5.2.3/humans.txt" afterPath="$PROJECT_DIR$/foundation-5.2.3/humans.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foundation-5.2.3/index.html" afterPath="$PROJECT_DIR$/foundation-5.2.3/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index2.html" afterPath="$PROJECT_DIR$/index2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foundation-5.2.3/js/vendor/jquery.cookie.js" afterPath="$PROJECT_DIR$/foundation-5.2.3/js/vendor/jquery.cookie.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foundation-5.2.3/js/vendor/jquery.js" afterPath="$PROJECT_DIR$/foundation-5.2.3/js/vendor/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/linkid.js" afterPath="$PROJECT_DIR$/index_files/linkid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/md.7652025.js" afterPath="$PROJECT_DIR$/index_files/md.7652025.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foundation-5.2.3/js/vendor/modernizr.js" afterPath="$PROJECT_DIR$/foundation-5.2.3/js/vendor/modernizr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/normalize.css" afterPath="$PROJECT_DIR$/css/normalize.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foundation-5.2.3/css/normalize.css" afterPath="$PROJECT_DIR$/foundation-5.2.3/css/normalize.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foundation-5.2.3/js/vendor/placeholder.js" afterPath="$PROJECT_DIR$/foundation-5.2.3/js/vendor/placeholder.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foundation-5.2.3/robots.txt" afterPath="$PROJECT_DIR$/foundation-5.2.3/robots.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/saved_resource(1).html" afterPath="$PROJECT_DIR$/index_files/saved_resource(1).html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/saved_resource(10).html" afterPath="$PROJECT_DIR$/index_files/saved_resource(10).html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/saved_resource(11).html" afterPath="$PROJECT_DIR$/index_files/saved_resource(11).html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/saved_resource(12).html" afterPath="$PROJECT_DIR$/index_files/saved_resource(12).html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/saved_resource(13).html" afterPath="$PROJECT_DIR$/index_files/saved_resource(13).html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/saved_resource(2).html" afterPath="$PROJECT_DIR$/index_files/saved_resource(2).html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/saved_resource(3).html" afterPath="$PROJECT_DIR$/index_files/saved_resource(3).html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/saved_resource(4).html" afterPath="$PROJECT_DIR$/index_files/saved_resource(4).html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/saved_resource(5).html" afterPath="$PROJECT_DIR$/index_files/saved_resource(5).html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/saved_resource(6).html" afterPath="$PROJECT_DIR$/index_files/saved_resource(6).html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/saved_resource(7).html" afterPath="$PROJECT_DIR$/index_files/saved_resource(7).html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/saved_resource(8).html" afterPath="$PROJECT_DIR$/index_files/saved_resource(8).html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/saved_resource(9).html" afterPath="$PROJECT_DIR$/index_files/saved_resource(9).html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/saved_resource.html" afterPath="$PROJECT_DIR$/index_files/saved_resource.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_files/spb.7652025.css" afterPath="$PROJECT_DIR$/index_files/spb.7652025.css" />
+    </list>
+    <ignored path="fcwm.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="fcwm" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.63746226">
+              <caret line="1476" column="1" selection-start-line="1476" selection-start-column="1" selection-end-line="1476" selection-end-column="1" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listen.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/listen.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="301" column="22" selection-start-line="301" selection-start-column="17" selection-end-line="301" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="3" />
+    <option name="y" value="56" />
+    <option name="width" value="1428" />
+    <option name="height" value="830" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fcwm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fcwm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fcwm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fcwm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fcwm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JsTestDriver-test-runner" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b071dfe-e873-4980-b710-b570d88ef55f" name="Default" comment="" />
+      <created>1435301253739</created>
+      <option name="number" value="Default" />
+      <updated>1435301253739</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="3" y="56" width="1428" height="830" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24946696" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913166" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/listen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="301" column="22" selection-start-line="301" selection-start-column="17" selection-end-line="301" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/listen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="301" column="22" selection-start-line="301" selection-start-column="17" selection-end-line="301" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63746226">
+          <caret line="1476" column="1" selection-start-line="1476" selection-start-column="1" selection-end-line="1476" selection-end-column="1" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
