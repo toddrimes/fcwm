@@ -193,7 +193,7 @@ ul {
 #video {
      margin-top: 5px;
      margin-bottom: 10px; /*10px*/
-     margin-left: 5px;
+     /* margin-left: 5px; */
      text-align: center;
 }
 
@@ -367,11 +367,18 @@ footer a{
     }
 	
 #headerWrapper {
-	background-color: #000;
-	position:fixed;
-	top:0;
-	height: 90px;
-	z-index: 100;
+    padding-top: 10px;
+    background-color: #000;
+    height: 40px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: fixed;
+    width: 100%;
+    max-width: 640px;
+    z-index: 1;
+    text-align: center;
+    display: block;
 }
 
 
@@ -547,8 +554,9 @@ footer a{
 	  width: 320px; /* Width of new image */
 	  height: 183px; /* Height of new image */
 	  padding-left: 320px; /* Equal to width of new image */
-	  margin: 20px 0px 0px 0px;
-	  padding: 0px !important
+	  padding: 0px !important;
+         display: table;
+         margin: 20px auto;
 	 }
 
 
