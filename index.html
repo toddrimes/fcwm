@@ -355,7 +355,7 @@ footer a{
 }
 
     #top-logos, #lower-logos, #lower-logos-upper, #lower-logos-lower {
-         text-align: justify;
+        text-align: justify;
     }
 
     #top-logos::after, #lower-logos::after, #lower-logos-upper::after, #lower-logos-lower::after {
@@ -706,13 +706,16 @@ footer a{
 	  margin: 0px auto;
 	 }
 
+    div.playlist.last {
+        display: none;
+    }
+
    .lower-why {
 	  background-image: url("/cuts/med_lower_1whylogo.png");
 	  width: 57px; /* Width of new image */
 	  height: 28px; /* Height of new image */
 	  padding-left: 57px; /* Equal to width of new image */
-	  display: table;
-	  margin: 0px auto;
+       margin-right: 50px;
    }
    .lower-pgen {
 	  background-image: url("/cuts/med_lower_2pgen.png");
@@ -720,15 +723,14 @@ footer a{
 	  height: 28px; /* Height of new image */
 	  padding-left: 49px; /* Equal to width of new image */
 	  display: table;
-	  margin: 0px auto;
+       margin-left: 60px;
    }
    .lower-safari {
 	  background-image: url("/cuts/med_lower_3safari.png");
 	  width: 72px; /* Width of new image */
 	  height: 28px; /* Height of new image */
 	  padding-left: 72px; /* Equal to width of new image */
-	  display: table;
-	  margin: 0px auto;
+       margin-right: 50px;
    }
    .lower-cstar {
 	  background-image: url("/cuts/med_lower_4cstar.png");
@@ -736,7 +738,7 @@ footer a{
 	  height: 20px; /* Height of new image */
 	  padding-left: 113px; /* Equal to width of new image */
 	  display: table;
-	  margin: 0px auto;
+       margin-right: 60px;
    }
    .lower-twitter {
 	  background-image: url("/cuts/med_lower_5twitter.png");
@@ -747,11 +749,19 @@ footer a{
 	  margin: 0px auto;
    }
 
+    .med-break {
+        display: none;
+    }
+
 }
 
 /* IPAD */
 
 @media only screen and (min-width:768px) {
+
+    .med-break {
+        display: block;
+    }
 
      .sidebar {
 
@@ -982,6 +992,7 @@ footer a{
 	  height: 28px; /* Height of new image */
 	  padding-left: 49px; /* Equal to width of new image */
 	  display: table;
+       margin-left: 0px;
        margin-right: 100px;
    }
    .lower-safari {
@@ -1431,24 +1442,13 @@ footer a{
     <div class="playlist column clearfix first even last">
      <div></div>
     </div>
-
-      <br clear="all" />
-    
   
   </div>
 
-
+      <br clear="all" class="med-break"/>
+      <br clear="all"  class="med-break"/>
       <br clear="all" />
-
-
-
       <br clear="all" />
-
-
-
-      <br clear="all" />
-
-
 
       <!--Footer-->
   

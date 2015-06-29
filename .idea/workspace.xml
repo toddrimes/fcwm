@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b071dfe-e873-4980-b710-b570d88ef55f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuts/med_video_fpo.png" afterPath="$PROJECT_DIR$/cuts/med_video_fpo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fcwm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +26,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.92913383">
-              <caret line="1007" column="21" selection-start-line="1007" selection-start-column="21" selection-end-line="1007" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.37795275">
+              <caret line="991" column="38" selection-start-line="991" selection-start-column="38" selection-end-line="991" selection-end-column="38" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -305,8 +303,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.92913383">
-          <caret line="1007" column="21" selection-start-line="1007" selection-start-column="21" selection-end-line="1007" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.37795275">
+          <caret line="991" column="38" selection-start-line="991" selection-start-column="38" selection-end-line="991" selection-end-column="38" />
           <folding>
             <element signature="n#style#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
