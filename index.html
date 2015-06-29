@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="/css/listen.css" type="text/css">
     <style type="text/css">
 
-    iframe {
+    .column iframe {
         border: 0px;
     }
     
@@ -560,11 +560,11 @@ footer a{
 	  padding-left: 320px; /* Equal to width of new image */
 	  padding: 0px !important;
          display: table;
-         margin: 20px auto;
+         margin: 40px auto 0px;
 	 }
 
 
-     iframe {
+     .column iframe {
           height: 350px;
      }
 
@@ -893,7 +893,7 @@ footer a{
          margin: 60px auto 0px;
 	 }
 
-     iframe {
+     .column iframe {
          /* width: 320px; */
          height: 445px;
      }
@@ -1331,7 +1331,7 @@ footer a{
 
    <div class="row" id="video">
     <div class="large-12">
-     <div class="responsive" id="video-fpo"></div>
+        <iframe class="responsive" id="video-fpo" src="https://www.youtube.com/embed/Bn430j67B38" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
 
@@ -1512,12 +1512,6 @@ function scrollTo(hash) {
      // location.hash = "#" + hash;
 }
 $(document).ready(function() {
-    /*
-    $('.playlist').height(window.innerHeight - 30);
-     */
-    /*
-    $('iframe').height(window.innerHeight -190);
-     */
      $('a[href^="#"]').click(function() {
          target = $('.' + this.hash.substr(1) );
           $('html, body').animate({ scrollTop: target.offset().top-40 }, 1000);
