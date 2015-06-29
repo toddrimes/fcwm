@@ -576,11 +576,6 @@ footer a{
           position: relative;
      }
 
-     div.column.clearfix > .pt-header {
-          margin-top: 20px;
-          margin-bottom: 15px;
-     }
-
      div.column.clearfix > .pt-header
      {
           background-size: cover;
@@ -765,11 +760,9 @@ footer a{
      }
 
      #social-media ul li{
-
           float: none;
           padding: 5px;
           margin-left: -5px;
-
      }
 
      .wrapper {
@@ -792,16 +785,15 @@ footer a{
           width: 100%;
      }
 
-     .column {
-          width: 300px;
-          / * margin-left: 2%; */
-     }
+
+    div.column {
+        width: 228px;
+    }
 
      #right {
           width: 100%;
           height: 500px;
      }
-
 
      #blog {
 
@@ -812,12 +804,8 @@ footer a{
      }
 
      #right h1 img {
-
           width: 70%;
-
      }
-
-
 
      footer {
           width: 100%;
@@ -829,15 +817,14 @@ footer a{
 
     #headerWrapper {
         padding-top: 20px;
-        height: 95px;
+        height: 60px;
         width: 100%;
 	}
 
     #headerWrapper ul {
-        display: table;
-        margin: 0px auto;
-        list-style:none;
-        padding-left:0;
+        list-style: none;
+        padding: 0;
+        margin: 0;
     }
 
 	 #big-logos { display: block;}
@@ -849,7 +836,6 @@ footer a{
 	  width: 326px;
 	  height: 24px;
 	  padding-left: 326px;
-      left: 0px;
 	 }
 
 	#top-why {
@@ -857,32 +843,40 @@ footer a{
 	  width: 42px; /* Width of new image */
 	  height: 23px; /* Height of new image */
 	  padding-left: 42px; /* Equal to width of new image */
+        margin-left: 20px;
 	 }
 	#top-pgen {
 	  background-image: url("/cuts/med_playlistgen_logo.png");
 	  width: 36px; /* Width of new image */
 	  height: 23px; /* Height of new image */
 	  padding-left: 36px; /* Equal to width of new image */
+        margin-left: 20px;
 	 }
 	#top-cstar {
 	  background-image: url("/cuts/med_cstarpr_logo.png");
 	  width: 106px; /* Width of new image */
 	  height: 18px; /* Height of new image */
 	  padding-left: 106px; /* Equal to width of new image */
+        margin-left: 20px;
 	}
 
-	 #video-fpo {
-	  background-image: url("/cuts/med_video_fpo.png");
-	  width: 768px; /* Width of new image */
-	  height: 433px; /* Height of new image */
-	  padding-left: 768px; /* Equal to width of new image */
-	  margin-left: 0px;
-	  padding: 0px !important
-	 }
+    #top-why {
+        display: inline-block;
+    }
+    #top-pgen {
+        display: inline-block;
+    }
+    #top-cstar {
+        display: inline-block;
+    }
 
 	 #video-fpo {
-		 display: table;
-		 margin: 60px auto 0px;
+         background-image: url("/cuts/med_video_fpo.png");
+         width: 593px;
+         height: 334px;
+         padding-left: 593px;
+         padding: 0px !important display: table;
+         margin: 60px auto 0px;
 	 }
 
      iframe {
@@ -893,7 +887,7 @@ footer a{
      #all-playlists {
           margin: 0px auto;
           text-align: center;
-          width: 768px;
+          width: 593px;
      }
 
      div.column.clearfix > div {
@@ -905,8 +899,22 @@ footer a{
      }
 
      div.column.clearfix.even {
-          margin-left: 168px;
+          margin-left: 120px;
      }
+
+     .next-arrow {
+         display: none;
+     }
+
+    div.column.clearfix > .pt-header {
+        width: 228px;
+        margin: 40px 0 15px;
+    }
+
+    .column iframe {
+        width: 250px;
+        margin-right: 100px;
+    }
 
 	.pt_1 {
 	  background-image: url("/cuts/med_pt_1thediagnosis.png");
@@ -966,7 +974,7 @@ footer a{
 	  height: 28px; /* Height of new image */
 	  padding-left: 57px; /* Equal to width of new image */
 	  display: table;
-	  margin: 0px auto;
+       margin-right: 100px;
    }
    .lower-pgen {
 	  background-image: url("/cuts/med_lower_2pgen.png");
@@ -974,7 +982,7 @@ footer a{
 	  height: 28px; /* Height of new image */
 	  padding-left: 49px; /* Equal to width of new image */
 	  display: table;
-	  margin: 0px auto;
+       margin-right: 100px;
    }
    .lower-safari {
 	  background-image: url("/cuts/med_lower_3safari.png");
@@ -982,7 +990,7 @@ footer a{
 	  height: 28px; /* Height of new image */
 	  padding-left: 72px; /* Equal to width of new image */
 	  display: table;
-	  margin: 0px auto;
+       margin-right: 100px;
    }
    .lower-cstar {
 	  background-image: url("/cuts/med_lower_4cstar.png");
@@ -990,7 +998,7 @@ footer a{
 	  height: 20px; /* Height of new image */
 	  padding-left: 113px; /* Equal to width of new image */
 	  display: table;
-	  margin: 0px auto;
+       margin-right: 100px;
    }
    .lower-twitter {
 	  background-image: url("/cuts/med_lower_5twitter.png");
@@ -1118,6 +1126,7 @@ footer a{
 	 	margin-top: 60px;
 	 	margin-bottom: 20px;
 	}
+
 	.pt_1 {
 	  background-image: url("/cuts/wide_pt_1thediagnosis.png");
 	  width: 212px; /* Width of new image */
@@ -1305,7 +1314,7 @@ footer a{
 
    <div class="row" id="video">
     <div class="large-12">
-     <div class="responsive" id="video-fpo"><a name="responsive" id="video-fpo">&nbsp;</a></div>
+     <div class="responsive" id="video-fpo"></div>
     </div>
   </div>
 
@@ -1422,13 +1431,26 @@ footer a{
     <div class="playlist column clearfix first even last">
      <div></div>
     </div>
+
+      <br clear="all" />
     
   
   </div>
 
-  
- 
- <!--Footer--> 
+
+      <br clear="all" />
+
+
+
+      <br clear="all" />
+
+
+
+      <br clear="all" />
+
+
+
+      <!--Footer-->
   
   <footer>
   
