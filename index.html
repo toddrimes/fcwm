@@ -1018,6 +1018,10 @@ footer a{
 
 @media only screen and (min-width:1024px)  {
 
+    .container-fixed {
+        width: 868px;
+    }
+
      .wrapper {
           margin-left: 350px;
      }
@@ -1039,9 +1043,9 @@ footer a{
           width: 66.66%;
      }
 
-     .column {
-          width: 30%;
-     }
+    div.column {
+        width: 212px;
+    }
 
      #your-favorite img {
           width: 90%;
@@ -1060,13 +1064,12 @@ footer a{
      }
 
     #headerWrapper {
-    	width: 1000px;
+        width: 869px;
+        max-width: 869px;
 	}
 
     #headerWrapper ul {
 		width: 869px;
-        display: table;
-        margin: 30px 65px;
 	}
 
 	 #big-logos { display: block;}
@@ -1110,7 +1113,7 @@ footer a{
 
 	 #video-fpo {
 		 display: table;
-		 margin: 90px auto 0px;
+		 margin: 60px auto 0px;
 	 }
 
 	 #all-playlists {
@@ -1123,6 +1126,19 @@ footer a{
 	 	margin-top: 60px;
 	 	margin-bottom: 20px;
 	}
+
+    div.column.clearfix.even {
+        margin-left: 0px;
+    }
+
+    div.column.clearfix.second.even, div.column.clearfix.second.odd, div.column.clearfix.third.even, div.column.clearfix.third.odd {
+        margin-left: 97px;
+    }
+
+    div.column.clearfix > .pt-header {
+        width: 212px;
+        margin: 30px 0 10px;
+    }
 
 	.pt_1 {
 	  background-image: url("/cuts/wide_pt_1thediagnosis.png");
@@ -1250,7 +1266,7 @@ footer a{
 	  height: 43px; /* Height of new image */
 	  padding-left: 84px; /* Equal to width of new image */
 	  display: table;
-	  margin: 0px auto;
+	  margin: 0px  85px 0px 0px;
    }
    .lower-pgen {
 	  background-image: url("/cuts/wide_lower_2pgen.png");
@@ -1258,7 +1274,7 @@ footer a{
 	  height: 43px; /* Height of new image */
 	  padding-left: 73px; /* Equal to width of new image */
 	  display: table;
-	  margin: 0px auto;
+       margin: 0px  85px 0px 0px;
    }
    .lower-safari {
 	  background-image: url("/cuts/wide_lower_3safari.png");
@@ -1266,7 +1282,7 @@ footer a{
 	  height: 42px; /* Height of new image */
 	  padding-left: 107px; /* Equal to width of new image */
 	  display: table;
-	  margin: 0px auto;
+       margin: 0px  85px 0px 0px;
    }
    .lower-cstar {
 	  background-image: url("/cuts/wide_lower_4cstar.png");
@@ -1274,7 +1290,7 @@ footer a{
 	  height: 29px; /* Height of new image */
 	  padding-left: 167px; /* Equal to width of new image */
 	  display: table;
-	  margin: 0px auto;
+       margin: 0px  85px 0px 0px;
    }
    .lower-twitter {
 	  background-image: url("/cuts/wide_lower_5twitter.png");
