@@ -591,6 +591,11 @@
                 margin: 35px auto 10px;
             }
 
+            div.column.clearfix > .pt-header.very-first
+            {
+                margin-top: 0px;
+            }
+
             .pt_1 {
                 background-image: url("/cuts/diagnosis.png");
                 width: 249px; /* Width of new image */
@@ -718,6 +723,7 @@
 
             .lower-why {
                 background-image: url("/cuts/med_lower_1whylogo.png");
+                background-repeat: no-repeat;
                 width: 57px; /* Width of new image */
                 height: 28px; /* Height of new image */
                 padding-left: 57px; /* Equal to width of new image */
@@ -725,6 +731,7 @@
             }
             .lower-pgen {
                 background-image: url("/cuts/med_lower_2pgen.png");
+                background-repeat: no-repeat;
                 width: 49px; /* Width of new image */
                 height: 28px; /* Height of new image */
                 padding-left: 49px; /* Equal to width of new image */
@@ -733,6 +740,7 @@
             }
             .lower-safari {
                 background-image: url("/cuts/med_lower_3safari.png");
+                background-repeat: no-repeat;
                 width: 72px; /* Width of new image */
                 height: 28px; /* Height of new image */
                 padding-left: 72px; /* Equal to width of new image */
@@ -740,6 +748,7 @@
             }
             .lower-cstar {
                 background-image: url("/cuts/med_lower_4cstar.png");
+                background-repeat: no-repeat;
                 width: 113px; /* Width of new image */
                 height: 20px; /* Height of new image */
                 padding-left: 113px; /* Equal to width of new image */
@@ -748,6 +757,7 @@
             }
             .lower-twitter {
                 background-image: url("/cuts/med_lower_5twitter.png");
+                background-repeat: no-repeat;
                 width: 35px; /* Width of new image */
                 height: 28px; /* Height of new image */
                 padding-left: 35px; /* Equal to width of new image */
@@ -925,6 +935,11 @@
             div.column.clearfix > .pt-header {
                 width: 228px;
                 margin: 40px 0 15px;
+            }
+
+            div.column.clearfix > .pt-header.very-first
+            {
+                margin-top: 40px;
             }
 
             .column iframe {
@@ -1242,8 +1257,6 @@
             }
 
         }
-
-
     </style>
 </head>
 <body>
@@ -1271,14 +1284,16 @@
         </div>
     </div>
 
-
+    <div style="color: rgb(0, 153, 204); text-align: center; padding: 10px; font-size: 16px;">
+        <a href="https://www.spotify.com/us/signup-for-spotify/?utm_source=google&utm_medium=useraquisition_9306101469&utm_campaign=360i%7CGGL%7CSPOTIFY%7CSEM%7CBRD%7CEXACT%7CMemberships&utm_content=CjwKEAjw_MisBRCTuNPfoMqU4ngSJACrJv1VhFGfsHsO7bHqUYidn3nDgXoH-7pqrz9h7s_gCVUbUBoC_sLw_wcB&utm_term=43700006876390520_c&gclid=CjwKEAjw_MisBRCTuNPfoMqU4ngSJACrJv1VhFGfsHsO7bHqUYidn3nDgXoH-7pqrz9h7s_gCVUbUBoC_sLw_wcB" target="_blank">Click Here to Sign Up for your Free Spotify Account and Enjoy The Music!</a>
+    </div>
 
     <!--Playlists-->
     <div id="all-playlists">
 
         <a name="pt_1">&nbsp;</a>
         <div class="playlist column clearfix first odd">
-            <div class="pt_1 pt-header"></div>
+            <div class="pt_1 pt-header very-first"></div>
             <iframe src="https://embed.spotify.com/?wmode=transparent&amp;uri=spotify:user:fcwmusic:playlist:2YiO5RgUJEU4tEXQ8Zk2xn"></iframe>
             <div class="next-arrow"><a href="#pt_2"><img src="cuts/next-button.png" style="width: 45px;height: 45px;"></a></div>
         </div>
@@ -1398,8 +1413,10 @@
 
         <div class="row" id="about" style="clear: both">
             <h5>About</h5>
-            <p>I received many gifts while I was going through cancer treatment. They were all amazing and helpful. What stands out to me more than anything is the music. The songs and playlists gifted to me became a integral part of making it through the day. Music is something you can always have close by. It can turn you around and slip itself around your soul to make everything ok, even if it's just for a moment. Looking back I'm not sure how I would have made it with out my music.<br>- Allison W. Gryphon, Breast Cancer Fighter</p><br>
-            <p id="email">The Fighting Cancer with Music collaboration is intended to bring comfort, escape and relief to everyone fighting cancer and those supporting them. We intend to grow and evolve with our community so please share your stories and the songs that impacted you during treatment with us. <a href="mailto:fighter@fightingcancerwithmusic.com">fighter@fightingcancerwithmusic.com</a></p>
+            <p>I received many gifts while I was going through cancer treatment. They were all amazing. What stands out to me more than anything is the music. The songs and playlists gifted to me became an integral part of making it through the day. <a href="http://www.thewhyfoundation.org/fighting-cancer-with-you/music/">A Song</a> is something you can always have close by. It can turn you around and slip itself around your soul to make everything ok, even if it's just for a moment. Looking back I'm not sure how I would have made it with out my music.<br>- <a href="http://www.thewhyfoundation.org/allison-w-gryphon/">Allison W. Gryphon, Breast Cancer Fighter</a></p><br>
+            <p id="email">The Fighting Cancer with Music collaboration is intended to bring comfort, escape and relief to everyone fighting cancer and those supporting them. We intend to grow and evolve with our community so please share your stories and the songs that impacted you during treatment with us. Follow us on Twitter. Send Us a Note. We can’t wait to hear from you!<br>
+                <a href="mailto:fighter@fightingcancerwithmusic.com">fighter@fightingcancerwithmusic.com</a><br>
+            </p>
         </div>
         <div>
             <div id="big-logos">
